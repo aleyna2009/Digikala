@@ -1,0 +1,502 @@
+main>section.market{
+    height: 495.9px;
+    padding: 0 16px;
+    font-family: digi;
+
+}
+/* supermarket */
+main>section.market>div.supermarket{
+    width: 100%;
+    /* height: 187px; */
+    height: 37.7%;
+    padding: 16px 20px 12px;
+    margin-top: 24px;
+    background-image: url(/assets/img/freshPattern.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: #f0f0f1;
+    border: 1px solid #f0f0f1;
+    border-radius: 16px;
+}
+main>section.market>div.supermarket>div.tittle{
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+main>section.market>div.supermarket>div.tittle>img.sabad{
+    width: 40px;
+    height: 38px;
+    margin-left: 8px;
+}
+main>section.market>div.supermarket>div.tittle>img.amazing{
+    width: 190px;
+    height: 20px;
+}
+main>section.market>div.supermarket>div.off{
+    width: 98.1px;
+    height: 27.4px;
+    margin: 8px 8px 0;
+    padding: 0 12px;
+    border: 1px solid #029a49;
+    border-radius: 9999px;
+    background-color: #029a49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main>section.market>div.supermarket>div.off>span{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2.15;
+    color: #fff;
+}
+
+/* product */
+main>section.market>div.supermarket>div.product{
+    width: 100%;
+    height: 69px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+     gap: 7px;
+}
+
+main>section.market>div.supermarket>div.product>div.pro{
+    width: 68px;
+    height: 69px;
+    padding: 8px 0;
+    border-radius: 50%;
+    border: 1px solid #f0f0f1;
+    background-color: #FFFFFF;
+}
+main>section.market>div.supermarket>div.product>div.pro2{
+    display: none;
+}
+main>section.market>div.supermarket>div.product>div.pro>a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    /* display: block; */
+}
+main>section.market>div.supermarket>div.product>div.pro>a>img{
+    width: 52px;
+    height: 53px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    /* display: block; */
+}
+main>section.market>div.supermarket>div.product>div.pro>a>span{
+    position: absolute;
+    bottom: -8px;
+    right: 0px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 2.17;
+    background-color: #d32f2f;
+    color: #fff;
+    width: 35px;
+    height: 22px;
+    border: 1px solid #f0f0f1;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* btn */
+main>section.market>div.supermarket>div.product>div.btn{
+    width: 40px;
+    height: 40px;
+    /* padding: 12px; */
+    border-radius: 9999px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+main>section.market>div.supermarket>div.product>div.btn>svg{
+    width: 20px;
+    height: 20px;
+}
+main>section.market>div.supermarket>div.product>div.btn>span{
+    display: none;
+}
+
+/* plus */
+main>section.market>div.plus{
+    width: 100%;
+    height: 55.65%;
+    background-image: url(/assets/img/earlyAccessPatternPlusMobile.svg),
+    linear-gradient(274.36deg, #e7abdc 10%, #f0f0f1 100%);
+    background-repeat: no-repeat;
+    border: 1px solid #f0f0f1;
+    border-radius: 16px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* plus2 */
+main>section.market>div.plus>div.plus2{
+    width: 309px;
+    height: 189.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+/* tittle */
+main>section.market>div.plus>div.plus2>div.tittle{
+    width: 127.81px;
+    height: 45.4px;
+    padding-top: 4px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+main>section.market>div.plus>div.plus2>div.tittle>svg{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+main>section.market>div.plus>div.plus2>div.tittle>span{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2.1;
+    color: #BF5AB5;
+}
+/* image */
+main>section.market>div.plus>div.plus2>div.pic{
+    width: 309px;
+    height: 144px;
+}
+main>section.market>div.plus>div.plus2>div.pic>img{
+    width: 100%;
+    height: 100%;
+}
+/* time */
+main>section.market>div.plus>div.time{
+    width: 241.3px;
+    height: 39.5px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+main>section.market>div.plus>div.time>div.watch{
+    width: 40px;
+    height: 39.5px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main>section.market>div.plus>div.time>div.watch>span.no{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.5 !important;
+    color: #b12ba4;
+}
+main>section.market>div.plus>div.time>div.watch>span.unit{
+    font-size: 7px;
+    color: #b12ba4;
+}
+/* notif */
+main>section.market>div.plus>div.time>div.notif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main>section.market>div.plus>div.time>div.notif>span{
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 2.17;
+    color: #b12ba4;
+    margin-right: 10px;
+}
+main>section.market>div.plus>div.time>div.notif>svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+/* بخش دسکتاپ توی موبایل و تبلت مخفیه (تغییر: قبلاً ویرگول داشت و .pic2 رو همیشه مخفی می‌کرد) */
+main>section.market>div.plus>div.pic2{
+    display: none;
+}
+main>section.market>div.plus>div.idk{
+    display: none;
+}
+
+
+/* ================= دسکتاپ: بالای ۱۲۰۰px ================= */
+@media (min-width:1200px) {
+  main>section.market{
+    height: 252px;
+    padding: 0 16px;
+    font-family: digi;
+  }
+  /* supermarket */
+  main>section.market>div.supermarket{
+    width: 100%;
+    height: 43.65%;
+    padding: 0 40px;               /* تغییر: بالا و پایین برابر (قبلاً 16 و 12 بود) تا همه وسط باشن */
+    margin-top: 24px;
+    background-image: url(/assets/img/freshPattern.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: #f0f0f1;
+    border: 1px solid #f0f0f1;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;           /* همه‌ی بچه‌ها از نظر ارتفاع وسط */
+  }
+  main>section.market>div.supermarket>div.tittle{
+    width: 356px;
+    height: 62px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 0;                /* کوچیک نشه */
+  }
+  main>section.market>div.supermarket>div.tittle>img.sabad{
+    width: 66px;
+    height: 62px;
+  }
+  main>section.market>div.supermarket>div.tittle>img.amazing{
+    width: 250px;
+    height: 28px;
+    margin: 0 20px;
+  }
+  main>section.market>div.supermarket>div.off{
+    width: 109.7px;
+    height: 28px;
+    margin: 0;                     /* تغییر: margin موبایل (8px 8px 0) رو صفر کردم */
+    padding: 0 12px;
+    border: 1px solid #029a49;
+    border-radius: 9999px;
+    background-color: #029a49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;                /* کوچیک نشه */
+  }
+  main>section.market>div.supermarket>div.off>span{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2.15;
+    color: #fff;
+    white-space: nowrap;
+  }
+
+  /* product */
+  main>section.market>div.supermarket>div.product{
+    height: 74px;
+    margin-top: 0;                 /* تغییر: margin-top موبایل رو صفر کردم */
+    display: flex;
+    justify-content: flex-end;     /* محصولات و دکمه سمت چپ */
+    align-items: center;
+    flex-direction: row;
+    gap: 7px;
+  }
+  main>section.market>div.supermarket>div.product>div.pro{
+    width: 74px;
+    height: 74px;
+    padding: 8px 0;
+    margin: 0;                     /* تغییر: margin-bottom: 16px حذف شد */
+    border-radius: 50%;
+    border: 1px solid #f0f0f1;
+    background-color: #FFFFFF;
+  }
+  main>section.market>div.supermarket>div.product>div.pro2{
+    display: block;
+  }
+  main>section.market>div.supermarket>div.product>div.pro>a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  main>section.market>div.supermarket>div.product>div.pro>a>img{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+  }
+  main>section.market>div.supermarket>div.product>div.pro>a>span{
+    position: absolute;
+    bottom: -8px;
+    right: 0px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2.17;
+    background-color: #d32f2f;
+    color: #fff;
+    width: 35px;
+    height: 22px;
+    border: 1px solid #f0f0f1;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* btn */
+  main>section.market>div.supermarket>div.product>div.btn{
+    width: 141.755px;
+    height: 50.037px;
+    border-radius: 9999px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
+  main>section.market>div.supermarket>div.product>div.btn>svg{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+  main>section.market>div.supermarket>div.product>div.btn>span{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2.17;
+    color: #029a49;
+    display: inline-block;
+    margin-left: 8px;
+  }
+
+  /* plus */
+  main>section.market>div.plus>div.plus2{
+    display: none;
+  }
+  main>section.market>div.plus>div.time{
+    display: none;
+  }
+  main>section.market>div.plus{
+    width: 100%;
+    height: 43.65%;
+    padding: 0 40px;                         /* تغییر: فاصله از دو طرف */
+    background-image: url(/assets/img/earlyAccessPatternPlusMobile.svg) , url(/assets/img/earlyAccessPatternPlus.svg) , linear-gradient( 274.36deg, #e0b6d9 10%, #f0f0f1 100%);
+    background-repeat: no-repeat;
+    background-position: left , right  ;
+    border: 1px solid #f0f0f1;
+    border-radius: 16px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;                     /* تغییر: ستونی نباشه، ردیفی باشه */
+    justify-content: space-between;          /* تغییر: عکس راست، نوشته‌ها چپ */
+    align-items: center;
+  }
+  /* image (سمت راست) */
+  main>section.market>div.plus>div.pic2{
+    display: block;                          /* تغییر: بدون این، عکس مخفی می‌موند */
+    width: 461px;
+    height: 83px;
+  }
+  main>section.market>div.plus>div.pic2>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  /* idk (سمت چپ): عنوان و تایمر، چسبیده به لبه‌ی راست خودش */
+  main>section.market>div.plus>div.idk{
+    display: flex;                           /* تغییر: بالا display:none بود */
+    flex-direction: column;
+    align-items: flex-start;                 /* بچه‌ها بچسبن به لبه‌ی راست idk */
+    justify-content: center;
+    width: 266.88px;
+    height: auto;                            /* تغییر: ارتفاع ثابت ۸۰ کم بود */
+  }
+  /* tittle */
+  main>section.market>div.plus>div.idk>div.tittle2{
+    width: 246.88px;
+    height: 33.6px;
+    display: flex;
+    justify-content: flex-start;             /* تغییر: وسط‌چین نباشه */
+    align-items: center;
+    flex-direction: row;
+  }
+  main>section.market>div.plus>div.idk>div.tittle2>svg{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+  }
+  main>section.market>div.plus>div.idk>div.tittle2>span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2.1;
+    color: #BF5AB5;
+  }
+  /* time */
+  main>section.market>div.plus>div.idk>div.time2{
+    width: 241.3px;
+    height: 39.5px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-start;             /* تغییر: وسط‌چین نباشه */
+    align-items: center;
+    gap: 10px;
+  }
+  main>section.market>div.plus>div.idk>div.time2>div.watch{
+    width: 40px;
+    height: 39.5px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main>section.market>div.plus>div.idk>div.time2>div.watch>span.no{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.5 !important;
+    color: #b12ba4;
+  }
+  main>section.market>div.plus>div.idk>div.time2>div.watch>span.unit{
+    font-size: 7px;
+    color: #b12ba4;
+  }
+  /* notif */
+  main>section.market>div.plus>div.idk>div.time2>div.notif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main>section.market>div.plus>div.idk>div.time2>div.notif>span{
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 2.17;
+    color: #b12ba4;
+    margin-right: 10px;
+  }
+  main>section.market>div.plus>div.idk>div.time2>div.notif>svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+  }
+}

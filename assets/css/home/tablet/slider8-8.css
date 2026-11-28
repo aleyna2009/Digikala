@@ -1,0 +1,84 @@
+ .sp-1{
+   font-family: "yekan-bold"; 
+   font-size: 10px;
+   display: flex;
+   gap: 70px;
+   margin: 35px;
+   flex-grow: 2;display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.ic{
+    align-items: center;
+    width: 10%;
+}
+
+.hame{
+  font-family: "yekan-bold"; 
+   font-size: 8px;
+}
+.salige{ 
+       font-family: "yekan-bold"; 
+   font-size: 8px;
+     margin: 20px;
+     white-space: nowrap;
+}
+.salige{
+    /* position: relative;
+    top: -40px;
+    margin: 20px;
+  margin-right: 15%;
+    color: rgb(131, 132, 133); */
+     font-family: "yekan-bold"; 
+   font-size: 10px;
+   display: flex;
+   gap: 70px;
+   top: -35px;
+   left: -10px;
+   flex-grow: 2;
+  color: rgb(131, 132, 133);  position: relative;
+}
+
+/* اسلایدر هشت تایی */
+
+  .mySwiper {
+      width: 100%;
+      height: 100%;
+      margin-top: -5%;
+      margin-right: 5%;
+    }
+
+    .mySwiper  .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+ border: 1px solid rgb(230, 222, 222);
+    }
+
+    .swiper-slide .img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
+.fi{
+  position: relative;
+  left: -10%;
+}
+.first2{
+  font-size: 10px;
+}
+.p1-1{
+     font-family: "yekan-bold"; 
+   font-size: 9px;
+
+}
+.shop-digikala{
+    display: none;
+}

@@ -1,0 +1,26 @@
+ .poshtibanitext{ 
+      font-size: 10px;
+      opacity: 60%;
+line-height: 1.6;
+padding: 5px;
+   font-family: "yekan-bold";
+    }
+
+    .cardcheraposhtibani{
+      width: 300px;
+background: linear-gradient(160deg, #fff7e6, #d8ebfd);
+      border-radius: 16px;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 15px;
+ margin: 5%;
+    }
+.pminiclass-2{
+  font-size: small;
+  position: relative;
+  left: -40px;
+  margin-right: 2%;
+  top: -40px;
+}

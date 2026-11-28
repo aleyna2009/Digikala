@@ -1,0 +1,28 @@
+
+main>section.single-banner2{
+    height: 177.43px;
+    margin: 20px 16px 0;
+}
+main>section.single-banner2>a{
+    width: 92.48%;
+    height: 100%;
+    
+}
+main>section.single-banner2>a>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+@media (min-width:651px){
+    main>section.single-banner2{
+    height: 294.43px;
+    margin: 20px 16px 0;
+}
+}
+@media (min-width:1200px){
+    main>section.single-banner2{
+    height: 180.43px;
+    margin: 20px 50px 0;
+}
+}

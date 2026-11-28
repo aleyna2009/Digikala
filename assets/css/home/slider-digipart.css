@@ -1,0 +1,101 @@
+div.topfixed>div.digipart {
+  height: 82px;
+  padding: 8px 12px;
+  background: #e8eef7;    
+  font-family: digi;     
+}
+
+div.digipart>div.swiper-wrapper>div.swiper-slide{
+  height: 66px;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* div.digipart>div.swiper-wrapper>div.swiper-slide:first-child >a>img{
+  width: 10px;
+  height: 66px;
+  top: 150%;
+} */
+
+div.digipart>div.swiper-wrapper>div.swiper-slide>a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 100%;
+  height: 100%;
+  color: #333;
+}
+
+/* قوی‌تر از .swiper-slide img در CSS اول، تا عکس ۳۲ بمونه */
+.swiper.digipart .swiper-slide > a > img {
+  width: 32px;
+  height: 32px;
+  /* object-fit: contain; */
+  display: block;
+}
+
+.swiper.digipart .swiper-slide > a > span {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.4;
+    display: block;
+}
+
+
+@media (min-width:651px){
+  div.digipart {
+  height: 82px;
+  padding: 8px 12px;
+  background: #e8eef7;    
+  font-family: digi;     
+}
+
+div.digipart>div.swiper-wrapper>div.swiper-slide{
+  height: 66px;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* div.digipart>div.swiper-wrapper>div.swiper-slide:first-child >a>img{
+  width: 10px;
+  height: 66px;
+  top: 150%;
+} */
+
+div.digipart>div.swiper-wrapper>div.swiper-slide>a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 100%;
+  height: 100%;
+  color: #333;
+}
+
+/* قوی‌تر از .swiper-slide img در CSS اول، تا عکس ۳۲ بمونه */
+.swiper.digipart .swiper-slide > a > img {
+  width: 32px;
+  height: 32px;
+  /* object-fit: contain; */
+  display: block;
+}
+
+.swiper.digipart .swiper-slide > a > span {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.4;
+    display: block;
+}
+}
+
+@media (min-width : 1200px){
+  div.digipart {
+
+    display: none;
+  }
+}

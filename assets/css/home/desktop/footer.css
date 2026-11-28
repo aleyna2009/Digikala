@@ -1,0 +1,943 @@
+footer {
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  border-top: 1px solid rgb(241, 241, 241);
+  margin-top: 35px;
+}
+
+  footer > section.footer-desktop-main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+footer > section.footer-desktop-main > div.row-1 {
+  width: 94%;
+  margin: 0 auto;
+  min-height: 40px;
+}
+
+footer > section.footer-desktop-main > div.row-1 > a.back-to-top {
+  width: 130px;
+  text-align: center;
+  /* background-color: rgb(237, 237, 237); */
+  border-radius: 6px;
+  margin: 25px auto;
+  height: 35px;
+  line-height: 35px;
+  display: block;
+  border: 1px solid #e0e0e2;
+  float: left;
+  margin-left: 15px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+footer > section.footer-desktop-main > div.row-1 > a.back-to-top > p {
+  font-size: 8.6pt;
+  font-family: "yekan-bold";
+  font-weight: lighter;
+  color: rgb(144, 143, 143);
+}
+
+footer > section.footer-desktop-main > div.row-2 {
+  width: 94%;
+  margin: 0 auto;
+  min-height: 60px;
+  font-family: "yekan-bold";
+}
+
+footer > section.footer-desktop-main > div.row-2 > img {
+  height: 30px;
+  object-fit: contain;
+}
+
+footer > section.footer-desktop-main > div.row-3 {
+  width: 94%;
+  margin: 0 auto;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+footer > section.footer-desktop-main > div.row-3 > p.type-1 {
+  font-size: 8.52pt;
+  color: rgb(117, 117, 117);
+  font-family: "yekan-bold";
+  border-left: 1px solid rgb(230, 230, 230);
+  padding-left: 20px;
+}
+
+footer > section.footer-desktop-main > div.row-3 > p.h-3 {
+  border-left: none;
+  font-family: "yekan-bold";
+}
+
+footer > section.footer-desktop-main > div.row-4 {
+  width: 94%;
+  margin: 35px auto;
+  min-height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > section.footer-desktop-main > div.row-4 > div.break {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > section.footer-desktop-main > div.row-4 > div.break > img {
+  height: 57px;
+  object-fit: contain;
+}
+
+footer > section.footer-desktop-main > div.row-4 > div.break > p {
+  text-align: center;
+  color: #252530;
+  font-size: 8.15pt;
+  padding-top: 11px;
+  font-family: "yekan-bold";
+}
+
+footer > section.footer-desktop-main > div.row-5 {
+  width: 94%;
+  margin: 56px auto;
+  display: flex;
+  align-items: center;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer > section.footer-desktop-main > div.row-5 > div.right-side {
+  width: 66%;
+  display: flex;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.row-5
+  > div.right-side
+  > div.footer-row {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  font-family: "yekan-bold";
+
+  text-decoration: none;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.row-5
+  > div.right-side
+  > div.footer-row
+  > a.small {
+  width: 100%;
+  min-height: 38px;
+  display: flex;
+  /* align-items: center; */
+  color: #686666;
+  font-size: 10.45pt;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.row-5
+  > div.right-side
+  > div.footer-row
+  > a.bold {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #49494c;
+  padding: 30px 0;
+  font-size: 13.26pt;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer > section.footer-desktop-main > div.row-5 > div.left-side {
+  width: 34%;
+}
+
+footer > section.footer-desktop-main > div.row-5 > div.left-side > div.row-1 {
+  width: 100%;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+  padding-right: 12px;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.row-5
+  > div.left-side
+  > div.row-1
+  > p {
+  color: #49494c;
+  font-size: 13.3pt;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer > section.footer-desktop-main > div.row-5 > div.left-side > div.row-2 {
+  max-width: 315px;
+  min-height: 40px;
+  margin-top: 20px;
+  display: flex;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.row-5
+  > div.left-side
+  > div.row-2
+  > a {
+  width: 20%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "yekan-bold";
+  text-decoration: none;
+  justify-content: center;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.row-5
+  > div.left-side
+  > div.row-2
+  > a
+  > img {
+  height: 35px;
+  object-fit: contain;
+}
+
+footer > section.footer-desktop-main > div.row-5 > div.left-side > div.row-3 {
+  width: 100%;
+  min-height: 24px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.row-5
+  > div.left-side
+  > div.row-3
+  > p {
+  color: #545456;
+  font-size: 11.54pt;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer > section.footer-desktop-main > div.row-5 > div.left-side > div.row-4 {
+  width: 100%;
+  min-height: 47px;
+  display: flex;
+  align-items: center;
+  margin: 22px auto;
+
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.row-5
+  > div.left-side
+  > div.row-4
+  > div.r-e {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.row-5
+  > div.left-side
+  > div.row-4
+  > div.r-e
+  > div.email-container {
+  width: 100%;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  background-color: #eeeeee;
+  border-radius: 11px;
+  overflow: hidden;
+  border: none;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.row-5
+  > div.left-side
+  > div.row-4
+  > div.r-e
+  > div.email-container
+  > div.input {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  border: none;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.row-5
+  > div.left-side
+  > div.row-4
+  > div.r-e
+  > div.email-container
+  > div.input
+  > input {
+  width: 100%;
+  padding: 8px 18px;
+  font-size: 1rem;
+  border: none;
+  background-color: transparent;
+  font-family: "yekan-bold";
+  text-decoration: none;
+  color: #6b6a6a;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.row-5
+  > div.left-side
+  > div.row-4
+  > div.l-e {
+  width: 18%;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebebeb;
+  margin: 0 12px;
+  border-radius: 9px;
+  overflow: hidden;
+  padding: 6px;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.row-5
+  > div.left-side
+  > div.row-4
+  > div.l-e
+  > button {
+  font-family: "yekan-bold";
+  text-decoration: none;
+  border: none;
+  color: #717171;
+}
+
+footer > section.footer-desktop-main > div.row-6 {
+  width: 95%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3c4b6d;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 8px 0px;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer > section.footer-desktop-main > div.row-6 > div.right-side {
+  min-width: 150px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 21px;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer > section.footer-desktop-main > div.row-6 > div.right-side > img {
+  height: 46px;
+  object-fit: contain;
+}
+
+footer > section.footer-desktop-main > div.row-6 > div.right-side > p {
+  font-size: 15pt;
+  color: white;
+  padding: 0 15px;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+div.left-side {
+  height: 100%;
+  display: flex;
+
+  flex-direction: column;
+  gap: 4px;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+div.left-side-2 {
+  height: 100%;
+  display: flex;
+  gap: 4px;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer > section.footer-desktop-main > div.row-6 > div.left-side > img {
+  height: 42px;
+  object-fit: contain;
+}
+
+footer > section.footer-desktop-main > div.row-6 > div.left-side > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer > section.footer-desktop-main > div.row-6 > div.left-side > a.third {
+  margin-left: 16px;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer > section.footer-desktop-main > div.row-6 > div.left-side > a > img {
+  height: 44px;
+  object-fit: contain;
+}
+
+footer > section.footer-desktop-main > div.last-column {
+  width: 94%;
+  min-height: 200px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(218, 218, 219);
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer > section.footer-desktop-main > div.last-column > div.right-column {
+  width: 60%;
+  min-height: 200px;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.last-column
+  > div.right-column
+  > div.container {
+  max-width: 85%;
+  background: white;
+  padding: 10px 12px;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+/* مخفی کردن خود اینپوت چک‌باکس */
+footer
+  > section.footer-desktop-main
+  > div.last-column
+  > div.right-column
+  > div.container
+  > input#toggle-checkbox {
+  display: none;
+}
+
+/* استایل متن */
+footer
+  > section.footer-desktop-main
+  > div.last-column
+  > div.right-column
+  > div.container
+  > div.text-content {
+  font-size: 13px;
+  justify-content: center;
+  line-height: 1.7;
+  color: #818181;
+  position: relative;
+
+  /* تنظیمات محدود کردن سطر */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* تعداد سطرها: 3 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  padding-top: 24px;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+/* ایجاد افکت تار (Blur/Fade) در انتهای متن */
+.text-content::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.5em; /* ارتفاع بخش تار */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  pointer-events: none;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.last-column
+  > div.right-column
+  > div.container
+  > label.toggle-label {
+  display: inline-block;
+  margin-top: 14px;
+  color: #2d9fe2;
+  cursor: pointer;
+  font-size: 12px;
+  text-decoration: none;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+.toggle-label:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+#toggle-checkbox:checked ~ .text-content {
+  display: block; /* حذف محدودیت سطر */
+  -webkit-line-clamp: unset;
+}
+
+#toggle-checkbox:checked ~ .text-content::after {
+  display: none;
+}
+
+footer > section.footer-desktop-main > div.last-column {
+  display: flex;
+}
+
+footer > section.footer-desktop-main > div.last-column > div.left-column {
+  width: 40%;
+  min-height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 7px;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.last-column
+  > div.left-column
+  > div.t-box {
+  width: 100px;
+  height: 99px;
+  border-radius: 8px;
+  border: 1px solid rgb(211, 209, 209);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.last-column
+  > div.left-column
+  > div.t-box
+  > img {
+  height: 70%;
+  object-fit: contain;
+}
+
+footer > section.footer-desktop-main > div.text-row {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > section.footer-desktop-main > div.text-row > p {
+  font-size: 10px;
+  color: #949494;
+  font-family: "yekan-bold";
+  text-decoration: none;
+}
+
+footer > section.footer-desktop-main > div.brands-row {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+}
+
+footer > section.footer-desktop-main > div.brands-row > div.brands-img {
+  width: 11.4%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(229, 229, 229);
+  background-color: #f0f0f1;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.brands-row
+  > div.brands-img
+  > img.new {
+  height: 32%;
+  object-fit: contain;
+}
+
+footer
+  > section.footer-desktop-main
+  > div.brands-row
+  > div.brands-img
+  > img.just-one {
+  height: 24%;
+  object-fit: contain;
+}
+
+/* پایان بخش رفتن به بالا */
+
+/* بخش تماس دیجی کالا و دانلود اپلیکیشن */
+
+  footer > section.mobile {
+  display: none !important;
+}
+
+footer > section.mobile > section.call-detail {
+  display: none;
+}
+/* 
+
+/* <!-- محتوای باز و بسته شو سطری --> */
+
+footer > section.mobile > div.accordion {
+  /* border-bottom: 1px solid rgb(235, 232, 232);
+  width: 90%;
+  margin: 0 auto; */
+  display: none;
+}
+
+footer > section.mobile > div.accordion > input.accordion-input {
+  display: none;
+}
+
+/* بخش مشاهده بیشتر */
+
+footer > section.mobile > div.text-expand {
+  /* position: relative;
+  width: 89%;
+  margin: 18px  auto; */
+  display: none;
+}
+/* فوتر گوشی و دسکتاپ */
+footer > a.back-to {
+  width: 102px;
+  text-align: center;
+  background-color: rgb(237, 237, 237);
+  border-radius: 18px;
+  margin: 25px auto;
+  height: 31px;
+  line-height: 31px;
+  display: block;
+  text-decoration: none;
+  display: none;
+}
+
+footer > a.back-to > p {
+  font-size: small;
+  font-weight: lighter;
+  color: rgb(68, 68, 68);
+  display: none;
+  font-family: "yekan-bold";
+}
+
+footer > section.call-detail {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0px auto;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  min-height: 61px;
+  display: none;
+}
+
+footer > section.call-detail > div.talk-us {
+  width: 37px;
+  height: 37px;
+  background-color: rgb(237, 237, 237);
+  border-radius: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  display: none;
+  font-family: "yekan-bold";
+}
+
+footer > section.call-detail > div.talk-us > img {
+  height: 59%;
+  object-fit: contain;
+  display: none;
+}
+
+footer > section.call-detail > div.talk-us > img.logo-con {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: none;
+}
+
+footer > section.call-detail > div.talk-us-2 {
+  width: fit-content;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  margin-right: 5px;
+  padding: 2px 5px;
+  gap: 6px;
+  display: none;
+}
+
+footer > section.call-detail > div.talk-us-2 > p {
+  font-size: 7.68pt;
+  font-family: "yekan-bold";
+  display: none;
+}
+
+footer > section.call-detail > div.talk-us-2 > span {
+  font-size: 7.6pt;
+  color: rgb(125, 126, 126);
+  font-family: "yekan-bold";
+  display: none;
+}
+
+footer > section.call-detail > div.talk-us-3 {
+  background-color: rgb(237, 237, 237);
+  padding: 9px 15px;
+  border-radius: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-right: auto;
+  display: none;
+}
+
+footer > section.call-detail > div.talk-us-3 > span {
+  font-size: small;
+  color: rgb(39, 39, 39);
+  font-family: "yekan-bold";
+  display: none;
+}
+
+.call-us {
+  position: relative;
+  top: 20%;
+  display: none;
+}
+.hafte {
+  position: relative;
+  top: -20%;
+  display: none;
+}
+
+footer > div.accordion {
+  border-bottom: 1px solid rgb(235, 232, 232);
+  width: 90%;
+  margin: 0 auto;
+  display: none;
+}
+
+footer > div.accordion > input.accordion-input {
+  display: none;
+  display: none;
+}
+
+footer > div.accordion > label.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 8.28pt;
+  font-family: "yekan-bold";
+  display: none;
+}
+
+footer > div.accordion > label.accordion-title > span.icon {
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid #333;
+  border-bottom: 2px solid #333;
+  transform: rotate(45deg);
+  transition: transform 0.4s;
+  display: none;
+}
+
+footer > div.accordion > div.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s ease;
+  padding: 0 20px;
+  display: none;
+}
+
+footer > div.accordion > div.accordion-content > p {
+  padding: 15px 0;
+  margin: 0;
+  display: none;
+}
+
+.accordion-input:checked + .accordion-title .icon {
+  transform: rotate(225deg);
+}
+
+.accordion-input:checked ~ .accordion-content {
+  max-height: 200px;
+}
+
+footer > div.text-expand {
+  position: relative;
+  width: 89%;
+  margin: 18px auto;
+  display: none;
+}
+
+footer > div.text-expand > input.expand-input {
+  display: none;
+}
+
+footer > div.text-expand > div.text-content {
+  position: relative;
+  margin-bottom: 130px;
+  font-family: "yekan-bold";
+}
+
+footer > div.text-expand > div.text-content > p {
+  margin: 0;
+  line-height: 1.8;
+  color: #333;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: justify;
+  font-size: 7.6pt;
+  padding-top: 11px;
+}
+
+footer > div.text-expand > div.text-content > h2 {
+  font-size: 9pt;
+  font-family: "yekan-bold";
+}
+
+.expand-input:not(:checked) ~ .text-content::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to top, #fff 20%, transparent 100%);
+  pointer-events: none;
+  font-family: "yekan-bold";
+}
+
+footer > div.text-expand > div.text-content > label.expand-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  margin-top: 5px;
+  font-family: "yekan-bold";
+}
+
+footer > div.text-expand > div.text-content > label.expand-btn > span.icon {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-left: 2px solid #999;
+  border-top: 2px solid #999;
+  transform: rotate(-45deg);
+  transition: transform 0.3s;
+  margin-right: 4px;
+}
+
+footer > div.text-expand > div.text-content > label.expand-btn > p.text {
+  color: #8f8f8f;
+  font-size: 12px;
+  padding-bottom: 2px;
+  font-family: "yekan-bold";
+}
+
+.expand-input:checked ~ .text-content p {
+  display: block;
+}
+
+.expand-input:checked ~ .text-content::before {
+  display: none;
+}
+
+.expand-input:checked ~ .text-content .icon {
+  transform: rotate(135deg);
+}
+section.most-view {
+  display: none;
+}

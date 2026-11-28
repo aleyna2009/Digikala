@@ -1,0 +1,218 @@
+@media (min-width: 1200px) {
+
+    /* ===== بنر بالا ===== */
+    .digipart{
+        display: none;
+    }
+    .banner-top{
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        background-color: #1c1c1c;
+    }
+    .banner-top img{
+        height: 60px;
+        width: auto;
+    }
+    header>section.search-bar>div.search-box>div.placeholder>img{
+        display: none;
+    }
+
+    /* بنر + ردیف جستجو ثابت می‌مونن */
+    div.topfixed{
+        position: sticky;
+        top: 0;
+        z-index: 200;
+        background-color: #fff;
+    }
+
+    header{
+        width: 100%;
+        padding: 0 20px;
+        background-color: #fff;
+    }
+    header>section.search-bar{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 68px;
+        gap: 0;
+        font-family: digi;
+    }
+    header>div.address{
+        display: none;
+    }
+    header>section.search-bar .mob,
+    header>section.search-bar>div.search-box>button.camera{
+        display: none;
+    }
+
+    /* لوگو */
+    header>section.search-bar>img.dlogo{
+        display: block;
+        width: 195px;
+        height: 30px;
+        margin-left: 20px;
+    }
+
+    /* کادر جستجو */
+    header>section.search-bar>div.search-box{
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex: none;
+        width: 500px;
+        height: 44px;
+        background: #f0f0f1;
+        border-radius: 16px;
+        overflow: hidden;
+    }
+    header>section.search-bar>div.search-box>input{
+        width: 100%;
+        height: 44px;
+        border: none;
+        outline: none;
+        background: transparent;
+        font-size: 14px;
+        padding: 0 52px 0 15px;
+        direction: rtl;
+        position: relative;
+        z-index: 2;
+    }
+    header>section.search-bar>div.search-box>span.search-icon{
+        position: absolute;
+        right: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 24px;
+        height: 24px;
+        color: #777;
+        z-index: 3;
+    }
+    header>section.search-bar>div.search-box>span.search-icon>svg{
+        width: 24px;
+        height: 24px;
+    }
+    header>section.search-bar>div.search-box>div.placeholder{
+        position: absolute;
+        right: 52px;
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        color: #81858b;
+        font-size: 14px;
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    /* آیکون‌های چپ: زنگ، ورود، سبد */
+    header>section.search-bar>div.icons{
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+        gap: 16px;
+    }
+    header>section.search-bar>div.icons>button.btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    header>section.search-bar>div.icons>button.btn>svg{
+        width: 24px;
+        height: 24px;
+        color: black;
+    }
+    header>section.search-bar>div.icons>a.login{
+        box-sizing: border-box;
+        width: 130.99px;
+        height: 40px;
+        padding: 8px 16px;
+        border: 1px solid #e0e0e2;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        font-weight: 700;
+        color: #1f1f1f;
+        white-space: nowrap;
+    }
+    header>section.search-bar>div.icons>a.login>svg{
+        width: 24px;
+        height: 24px;
+        margin-left: 8px;
+    }
+    header>section.search-bar>div.icons>a.cart{
+        display: flex;
+        align-items: center;
+        margin-right: 14px;
+    }
+    header>section.search-bar>div.icons>a.cart>svg{
+        width: 28px;
+        height: 28px;
+    }
+
+    /* ===== ردیف منو و آدرس (ثابت نیست) ===== */
+    nav.dmenu{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        padding: 0 20px;
+        font-family: digi;
+        background-color: #fff;
+        border-bottom: 1px solid #e0e0e2;
+    }
+    nav.dmenu>a{
+        display: flex;
+        align-items: center;
+        margin-left: 24px;
+        font-size: 12px;
+        color: #3f4064;
+    }
+    nav.dmenu>a:hover{
+        color: #ef4056;
+    }
+    nav.dmenu>a>svg{
+        width: 18px;
+        height: 18px;
+        margin-left: 6px;
+    }
+    nav.dmenu>a.cat{
+        margin-left: 20px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    nav.dmenu>a.cat>svg{
+        width: 20px;
+        height: 20px;
+        margin-left: 8px;
+    }
+    nav.dmenu>span.vl{
+        width: 1px;
+        height: 20px;
+        background-color: #e0e0e2;
+        margin-left: 16px;
+    }
+
+    /* انتخاب آدرس: ته سمت چپ */
+    nav.dmenu>a.dadr{
+        margin-right: auto;
+        margin-left: 0;
+        height: 34px;
+        padding: 0 12px;
+        background-color: #fff3e0;
+        border-radius: 17px;
+        color: #f58a00;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    nav.dmenu>a.dadr>svg{
+        width: 20px;
+        height: 20px;
+        margin-left: 6px;
+    }
+}

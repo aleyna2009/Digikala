@@ -1,0 +1,172 @@
+main>section.hot-selling{
+    font-family: digi;
+    width: 100%;
+    height: 310.8px;
+}
+/* tittle */
+main>section.hot-selling>div.tittle{
+    height: 56px;
+    padding: 20px 16px 12px;
+    display: flex;
+    justify-content: flex-start;
+}
+main>section.hot-selling>div.tittle>span{
+    color: #1f1f1f;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+/* slider */
+main>section.hot-selling>div.sell{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding-right: 15px;
+}
+main>section.hot-selling>div.sell>div.swiper-wrapper{
+    width: 100%;
+    height: 244.8px;
+}
+main>section.hot-selling>div.sell>div.swiper-wrapper>div.swiper-slide{
+    width: 260px;
+    height: 73.6px;
+    background-color: #FFFFFF;
+}
+main>section.hot-selling>div.sell>div.swiper-wrapper>div.swiper-slide>a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: right;
+    border-radius: 8px;
+    border: 1px solid #e0e0e2;
+}
+main>section.hot-selling>div.sell>div.swiper-wrapper>div.swiper-slide>a>img{
+    width: 72px;
+    height: 72px;
+    filter: brightness(0.95);
+    background-color: #F0F0F1;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+main>section.hot-selling>div.sell>div.swiper-wrapper>div.swiper-slide>a>div.info{
+    width: 62.46%;
+    display: block;
+    text-align: right;
+}
+main>section.hot-selling>div.sell>div.swiper-wrapper>div.swiper-slide>a>div.info>span.NO{
+    width: 22px;
+    height: 22px;
+    background-color: #ef4056;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    color: white;
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1;
+}
+main>section.hot-selling>div.sell>div.swiper-wrapper>div.swiper-slide>a>div.info>span.caption{
+    display: inline;
+    font-size: 11.5px;
+    font-weight: 400;
+    line-height: 19.8px;
+    color: #3f4064;
+}
+
+
+
+@media (min-width:1200px) {
+    main>section.hot-selling{
+        width: 93%;
+        font-family: digi;
+        height: 409.6px;
+        padding: 0 16px;
+        margin: 24px 50px 0;
+        border: 1px solid #e7e7eb;
+        border-radius: 16px;
+    }
+
+    /* tittle */
+    main>section.hot-selling>div.tittle{
+        height: 56px;
+        padding: 16px 24px 0;
+        display: flex;
+        justify-content: flex-start;
+    }
+    main>section.hot-selling>div.tittle>span{
+        color: #1f1f1f;
+        line-height: 30px;
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 8px;
+    }
+
+    /* slider */
+    main>section.hot-selling>div.sell{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding-top: 16px;
+    }
+    main>section.hot-selling>div.sell>div.swiper-wrapper{
+        width: 100%;
+        height: 312px;
+    }
+    main>section.hot-selling>div.sell>div.swiper-wrapper>div.swiper-slide{
+        width: 305px;
+        height: 88px;
+        background-color: #FFFFFF;
+    }
+    main>section.hot-selling>div.sell>div.swiper-wrapper>div.swiper-slide>a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: right;
+        border-radius: 8px;
+        border: 1px solid #fff;
+    }
+    main>section.hot-selling>div.sell>div.swiper-wrapper>div.swiper-slide>a>img{
+        width: 88px;
+        height: 88px;
+        filter: brightness(0.95);
+        background-color: #F0F0F1;
+        border-radius: 8px;
+        margin-left: 12px;
+    }
+    main>section.hot-selling>div.sell>div.swiper-wrapper>div.swiper-slide>a>div.info{
+        width: 70%;
+        display: block;
+        text-align: right;
+    }
+    main>section.hot-selling>div.sell>div.swiper-wrapper>div.swiper-slide>a>div.info>span.NO{
+        width: 22px;
+        height: 22px;
+        background-color: #ef4056;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+        color: white;
+        margin-left: 8px;
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 1;
+    }
+    main>section.hot-selling>div.sell>div.swiper-wrapper>div.swiper-slide>a>div.info>span.caption{
+        display: inline;
+        font-size: 11.5px;
+        font-weight: 400;
+        line-height: 25.2px;
+        color: #3f4064;
+    }
+}

@@ -1,0 +1,64 @@
+  .imgdaryaftfiziki{
+            width: calc(70%);   
+            border-radius: 16px;
+          
+margin-right: 10%;
+
+    }
+    .fizikifont{
+      
+      font-size: 10px;
+      opacity: 60%;
+line-height: 1.9;
+width: 70%;
+   font-family: "yekan-bold";
+margin-right: 10%;
+
+position: relative;
+
+    }
+
+.f-i{
+    border: 1px solid rgb(216, 209, 209);
+    width: 90%;
+    margin-right: 5%;
+    padding: 5px 5px 5px;
+    border-radius: 10px;
+}
+     .my-button{
+      width: 75%;
+      height: 40px;
+      border: #027275;
+      border-radius: 10px;
+      background-color: #027275;
+      color: #FAFAFA;
+      font-size:16px;
+      font-weight: bold;
+          cursor: pointer;
+         font-family: "yekan-bold";
+         margin-right: 7%;
+         position: relative;
+       
+    }
+
+    .my-button-text{
+      padding: 10px;   font-family: "yekan-bold";
+      font-size: small;
+    }
+
+
+
+
+.pclass-5{
+  position: relative;
+  left: -10%;
+  font-size: small;
+}
+.pminiclass-2{
+  font-size: small;
+  position: relative;
+  left: -10%;
+  /* margin-right: 2%; */
+
+  width: 40%;
+}

@@ -1,0 +1,11 @@
+@import url(./setting.css);
+@import url(./home/mobile/mobile.css)  only screen and (min-width:300px) and (max-width:768px);
+@import url(./home/tablet/tablet.css)  only screen and (min-width:768px) and (max-width:1016px);
+@import url(./home/desktop/deskop.css)  only screen and (min-width:1016px) and (max-width:2000px);
+
+
+
+@import url(./setting.css);
+@import url(./tala/mobile/mobile.css) only screen and (min-width:300px) and (max-width:500px);
+ @import url(./tala/tablet/tablet.css)  only screen and (min-width:500px) and (max-width:1016px);
+ @import url(./tala/desktop/desktop.css) only screen and (min-width:1016px) and (max-width:2000px);

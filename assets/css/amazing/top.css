@@ -1,0 +1,20 @@
+section.top{
+    height: 64px;
+    width: 100%;
+    background-color: #E6123D;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* section.top>svg{
+    display: inline-block;
+} */
+section.top>svg.search{
+    width: 24px;
+    height: 24px;
+}
+section.top>svg.arrow{
+    width: 24px;
+    height: 24px;
+}

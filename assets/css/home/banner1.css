@@ -1,0 +1,39 @@
+main>section.banner1 {
+  height: 240px;             /* روی صفحه‌ی خیلی بزرگ بیشتر از این پهن نشه */
+  margin: 18px auto;              
+  padding: 0 8px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 8px;                  /* اول فاصله‌ی بین ردیف‌ها (8)، بعد بین ستون‌ها (16) */
+}
+
+main>section.banner1>a {
+  display: block;
+  flex: 0 0 calc((100% - 16px) / 2);   /* 16 = فاصله‌ی ستون‌ها */
+  height: calc((100% - 8px) / 2);      /* 8 = فاصله‌ی ردیف‌ها */
+}
+
+main>section.banner1>a>img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid #FFFFFF;
+  border-radius: 16px;
+}
+
+/* ===== دسکتاپ: بالای ۱۲۰۰px (یک ردیف ۴ تایی، ارتفاع سکشن ۲۲۱) ===== */
+@media (min-width: 1200px) {
+  main>section.banner1 {
+    height: 221px;
+    padding: 3.5px 8px;
+    flex-wrap: nowrap; 
+    margin: 18px 55px;           /* همه توی یک ردیف */
+  }
+  main>section.banner1>a {
+    flex: 1;                      /* چهار تا با عرض مساوی */
+    height: 100%;
+  }
+}

@@ -1,0 +1,67 @@
+ .container {
+  display: grid;
+  grid-template-columns: 250px 250px;
+
+  gap: 2px; 
+  padding: 14px 16px;
+margin-top: -50%;
+margin-right: 5%;
+    }
+
+ 
+ 
+
+    .card {
+     object-fit: contain;
+      background: #fff;
+  border:1px solid #00000022;
+      border-radius: 16px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+   margin: 0%;
+   height: 80%;
+
+    }
+
+
+    .card img {
+      width: 60%;
+
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .card p {
+   
+      text-align: center;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .imgcard{
+      width: 50px;
+      height: 50px;
+    }
+
+    .tahliltala{
+      width: calc(100%);   
+      background: #fff;
+  border:1px solid #00000022;
+      border-radius: 16px;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+.pclass{
+      padding: 20px;
+      padding-right: 0px;
+   white-space: nowrap;
+      font-weight:bold;
+      font-size: medium;
+margin-bottom: 35%;
+    }
+

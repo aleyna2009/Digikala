@@ -1,0 +1,65 @@
+html,body{
+    overflow-x: hidden;
+}
+ .scroll-wrapper {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 10px;
+  gap: 10px;
+  width: 100%;
+
+}
+
+ .cardcherabenefit{
+
+      width: 280px;
+      height: 20%;
+      background: #fff;
+      border:1px solid #00000022;
+      border-radius: 16px;
+      padding: 5px;
+      margin: 5px;
+      align-items: center;
+   font-family: "yekan-bold";
+    }
+     .imgbenefit{
+            width: 100%; 
+            height: auto;
+            border-radius: 16px;
+            padding-left: 90px;
+            padding-right: 90px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+    }
+ .pminiclassbenefit{
+      font-size:14px;
+      font-weight: bold;
+      text-align: center;
+         font-family: "yekan-bold";
+    }
+
+    .benfittext{
+      font-size: 12px;
+      opacity: 60%;
+      line-height: 1.7;
+      overflow: hidden;
+   font-family: "yekan-bold";
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

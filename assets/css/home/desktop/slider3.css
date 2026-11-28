@@ -1,0 +1,137 @@
+section.most-wanted-pr {
+  margin-top: 30px;
+  margin-bottom: 35px;
+ border: 1px solid rgb(209, 206, 206);
+ width: 90%;
+ margin-right: 5%;
+ border-radius: 10px;
+}
+
+section.most-wanted-pr > h2 {
+  text-align: right;
+  font-size: 15px;
+  font-family: "yekan-bold";
+  font-weight: 600;
+  margin-bottom: 16px;
+  padding: 0px 18px;
+  position: relative;
+  left: -40%;
+  top: 10px;
+}
+
+section.most-wanted-pr > div.best-product {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 9px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 4px 16px;
+
+}
+
+section.most-wanted-pr > div.best-product > div.prouduct-card {
+  scroll-snap-align: start;
+  display: flex;
+}
+
+section.most-wanted-pr > div.best-product > div.prouduct-card > a.click {
+  min-width: 400px;
+  height: 80px;
+
+ border-bottom: 1px solid rgb(209, 206, 206);
+  color: #555;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+section.most-wanted-pr
+  > div.best-product
+  > div.prouduct-card
+  > a.click
+  > div.start-img {
+  width: 15.5%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.most-wanted-pr
+  > div.best-product
+  > div.prouduct-card
+  > a.click
+  > div.start-img
+  > img {
+  height: 110%;
+  object-fit: contain;
+  padding: 10px;
+}
+
+section.most-wanted-pr
+  > div.best-product
+  > div.prouduct-card
+  > a.click
+  > div.start--info {
+  width: 63%;
+  height: 100%;
+  padding: 0 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  margin-left: 95px;
+
+}
+
+  section.most-wanted-pr
+  > div.best-product
+  > div.prouduct-card
+  > a.click
+  > div.start--info
+  > p {
+  width: 98%;
+ display: -webkit-box;
+  margin: 0px auto;
+  overflow: hidden;
+
+}
+
+/* استایل عدد (تغییر اصلی اینجاست) */
+section.most-wanted-pr
+  > div.best-product
+  > div.prouduct-card
+  > a.click
+  > div.start--info
+  > p
+  > span.number {
+  padding: 0px 8px;
+  background-color: rgb(244, 41, 75);
+  color: white;
+  font-size: 14px;
+  border-radius: 50%;
+  font-weight: bolder; 
+  text-align: center;
+  margin-left: 5px;
+   display: inline; 
+  align-items: center;
+  font-family: "yekan-bold";
+}
+
+section.most-wanted-pr
+  > div.best-product
+  > div.prouduct-card
+  > a.click
+  > div.start--info
+  > p
+  > span.main {
+  margin: 0;
+  font-size: 11px;
+  color: #333;
+  display: inline;
+ 
+
+      font-family: "yekan-bold";
+}

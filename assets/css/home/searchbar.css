@@ -1,0 +1,126 @@
+@media(max-width:1199px) {
+    nav.dmenu{
+        display: none;
+    }
+a.login{
+    display: none;
+}
+img.dlogo{display: none;}
+header {
+    width: 100%;
+    padding: 15px 20px;
+     background-color: #F2F3F5;
+}
+
+header>section.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    font-family: digi;
+}
+
+/* کادر جستجو */
+
+header>section.search-bar>div.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 9999px;
+    overflow: hidden;
+}
+
+header>section.search-bar>div.search-box>input {
+    width: 100%;
+    height: 44px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 15px;
+    padding: 0 52px 0 15px;
+    direction: rtl;
+    position: relative;
+    z-index: 2;
+}
+
+header>section.search-bar>div.search-box>span.search-icon {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    color: #777;
+    z-index: 3;
+}
+
+header>section.search-bar>div.search-box>span.search-icon>svg {
+    width: 24px;
+    height: 24px;
+}
+
+header>section.search-bar>div.search-box>div.placeholder {
+    position: absolute;
+    right: 48px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #81858b;
+    font-size: 15px;
+    pointer-events: none;
+    z-index: 1;
+}
+header>section.search-bar>div.search-box>div.placeholder>img {
+    width: 61px;
+    height: 16px;
+}
+
+/* آیکون‌های کناری */
+
+header>section.search-bar>div.icons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header>section.search-bar>div.icons>button.btn {
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+header>section.search-bar>div.icons>button.btn>svg {
+    width: 24px;
+    height: 24px;
+    color: black;
+}
+/* انتخاب آدرس */
+/* header>div.search-bar>div.address{
+  margin-top: 18px;
+  font-size: 12px;
+  color: rgb(147 76 11);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+} */
+.address {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 18px;
+    font-size: 12px;
+    color: rgb(147 76 11);
+    cursor: pointer;
+    font-family: digi;
+}
+}

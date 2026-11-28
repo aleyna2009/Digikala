@@ -1,0 +1,139 @@
+ main>section.sugges {
+  font-family: digi;
+  direction: rtl;
+}
+
+/* tittle */
+main>section.sugges>div.tittle {
+  height: 49.2px;
+  padding: 12px 16px;
+}
+main>section.sugges>div.tittle>h2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25.2px;
+  color: #1f1f1f;
+}
+
+/* grid */
+main>section.sugges>div.grid {
+  width: 100%;
+  padding: 0 16px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+/* کارت */
+main>section.sugges>div.grid>a {
+  width: 100%;
+  height: 330.2px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #e0e0e2;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+/* عکس */
+main>section.sugges>div.grid>a>div.pic {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  flex-shrink: 0;
+}
+main>section.sugges>div.grid>a>div.pic>img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* امتیاز با ستاره */
+main>section.sugges>div.grid>a>div.rate {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  align-self: flex-start;          /* سمت راست کارت */
+  height: 20px;
+  margin-top: 6px;
+  padding: 0 8px;
+  box-sizing: border-box;
+  border: 1px solid #e0e0e2;
+  border-radius: 16px;
+}
+main>section.sugges>div.grid>a>div.rate>span {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 19.8px;
+  color: #1f1f1f;
+}
+
+/* اسم محصول: ۲ خط و بعدش سه‌نقطه */
+main>section.sugges>div.grid>a>p {
+  height: 43.2px;                  /* ۲ خط × ۲۱.۶ */
+  margin: 6px 0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 21.6px;
+  color: #5c5c5c;
+  overflow: hidden;
+}
+
+/* قیمت‌ها: زیر هم و پایین کارت، سمت چپ */
+main>section.sugges>div.grid>a>div.price {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;           /* در RTL یعنی سمت چپ */
+}
+
+/* قیمت قبلی + درصد تخفیف */
+main>section.sugges>div.grid>a>div.price>div.off-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+main>section.sugges>div.grid>a>div.price>div.off-row>span.price1 {
+  font-size: 14px;
+  line-height: 25.2px;
+  color: #a2a2a2;
+  text-decoration: line-through;
+}
+main>section.sugges>div.grid>a>div.price>div.off-row>span.off {
+  height: 16.8px;
+  padding: 0 8px;
+  background-color: #e40138;
+  color: #ffffff;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+/* قیمت نهایی + عکس تومان */
+main>section.sugges>div.grid>a>div.price>div.final {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+main>section.sugges>div.grid>a>div.price>div.final>span.price2 {
+  color: #1f1f1f;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  white-space: nowrap;
+}
+main>section.sugges>div.grid>a>div.price>div.final>img.toman {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+@media (min-width:435px){
+  section.sugges{
+    display: none;
+  }
+}

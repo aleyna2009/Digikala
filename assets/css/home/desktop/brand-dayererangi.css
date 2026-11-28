@@ -1,0 +1,44 @@
+/* دایره رنگی پایین سویپر اتو */
+.swiper-slidee {
+      width: 40%;
+      height: 100%;
+      margin: 28px ;
+margin-right: 15%;
+
+    }
+.div1{
+  border: 2px solid #fff;
+  background-color: #fff;
+
+}
+    .swiper-slide  {
+      text-align: center;
+      font-size: 18px;
+ 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+ min-width: 60px;
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+  overflow: hidden;
+
+}
+ 
+.matn1{
+    text-decoration: none;
+  font-family: "yekan-bold";
+  white-space: nowrap;
+  font-size: 10px;
+
+  text-align: center;
+}
+.aks{
+  background-color: rgb(255, 255, 255);
+}
+

@@ -1,0 +1,689 @@
+/* ============ مشترک ============ */
+
+/* حذف زیرخط و رنگ آبی لینک‌های بوت‌استرپ */
+a,
+a:hover,
+a:focus,
+a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* حذف فاصله‌های پیش‌فرض بوت‌استرپ */
+div.pcard p,
+div.pcard h3{
+    margin: 0;
+}
+
+section.allamazing {
+  font-family: digi;
+  padding: 0 16px;
+}
+
+/* aside و نوار مرتب‌سازی: پیش‌فرض مخفی (فقط لپ‌تاپ نشونشون می‌ده) */
+aside {
+  display: none;
+}
+div.sort {
+  display: none;
+}
+
+/* اسلایدر بالا (موبایل و تبلت) */
+main>section.allamazing>div.wrap>div.products>div.sort2{
+    height: 50px;
+    padding: 10px 12px 8px;
+    margin: 0 -20px;
+}
+main>section.allamazing>div.wrap>div.products>div.sort2>div.swiper-wrapper>.swiper-slide{
+    width: auto;
+    height: 32px;
+    padding: 0 12px;
+    border: 1px solid #b4b5b7;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main>section.allamazing>div.wrap>div.products>div.sort2>div.swiper-wrapper>.swiper-slide>span{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 2.17;
+    color: #3f4064;
+    white-space: nowrap;
+}
+main>section.allamazing>div.wrap>div.products>div.sort2>div.swiper-wrapper>.swiper-slide>svg{
+    width: 15px;
+    height: 15px;
+}
+main>section.allamazing>div.wrap>div.products>div.sort2>div.swiper-wrapper>.swiper-slide>span+svg{
+    margin-right: 4px;
+}
+
+/* تعداد کالا */
+main>section.allamazing>div.wrap>div.products>div.no>span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2.1;
+}
+
+/* کارت: هاور سایه */
+div.products>div.grid>div.pcard{
+    border-bottom: 1px solid #e0e0e2;
+    position: relative;
+    transition: 0.2s;
+}
+div.products>div.grid>div.pcard:hover{
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+}
+
+/* عکس شگفت‌انگیز */
+div.pcard>a>article>img.ama{
+    display: block;
+    width: 116px;
+    height: 14px;
+}
+
+/* عکس محصول */
+div.pcard>a>article>img.pru{
+    display: block;
+    object-fit: contain;
+}
+
+/* عنوان */
+div.pcard>a>article>div.paragraph>h3{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2.17;
+    color: #3f4064;
+}
+
+/* امتیاز و ارسال */
+div.pcard>a>article>div.feature{
+    display: flex;
+    align-items: center;
+    height: 24px;
+}
+div.pcard>a>article>div.feature>img.today{
+    width: 72px;
+    height: 22px;
+}
+div.pcard>a>article>div.feature>svg.seller{
+    width: 16px;
+    height: 16px;
+}
+div.pcard>a>article>div.feature>p.fr{
+    font-size: 12px;
+    font-weight: 400;
+    color: #62666d;
+    margin-right: 4px;
+}
+div.pcard>a>article>div.feature>p.num{
+    font-size: 12px;
+    font-weight: 700;
+    color: #3f4064;
+    margin-right: auto;
+    margin-left: 4px;
+}
+div.pcard>a>article>div.feature>svg.star{
+    width: 16px;
+    height: 16px;
+}
+
+/* قیمت */
+div.pcard>a>article>div.price>div.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 29.04px;
+}
+div.pcard>a>article>div.price>div.one>span.off{
+    width: 34px;
+    height: 20px;
+    padding: 0 4px;
+    color: #fff;
+    background-color: #d32f2f;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    border-radius: 16px;
+    text-align: center;
+}
+div.pcard>a>article>div.price>div.one>div.oneone{
+    display: flex;
+    align-items: center;
+}
+div.pcard>a>article>div.price>div.one>div.oneone>span.pricee{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.8;
+    color: #3f4064;
+}
+div.pcard>a>article>div.price>div.one>div.oneone>img{
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+div.pcard>a>article>div.price>div.two{
+    display: flex;
+    justify-content: flex-end;
+}
+div.pcard>a>article>div.price>div.two>span{
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #c0c2c5;
+}
+
+/* نوار قرمز (پر) و خاکستری (خالی) */
+div.pcard>a>article>div.price>div.bar{
+    width: 100%;
+    height: 4px;
+    margin-top: 8px;
+    background-color: #e0e0e2;
+    border-radius: 4px;
+    overflow: hidden;
+}
+div.pcard>a>article>div.price>div.bar>span{
+    display: block;
+    height: 100%;
+    background-color: #ef4056;
+    border-radius: 4px;
+}
+
+/* درصد فروش و تایمر */
+div.pcard>a>article>div.price>div.timer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 28px;
+}
+div.pcard>a>article>div.price>div.timer>span{
+    font-size: 12px;
+    line-height: 2.17;
+}
+div.pcard>a>article>div.price>div.timer>span.sell{
+    font-weight: 400;
+    color: #81858b;
+}
+div.pcard>a>article>div.price>div.timer>span.time{
+    font-weight: 700;
+    color: #c60c31;
+}
+
+
+/* ============ موبایل ============ */
+
+  section.allamazing {
+    margin-top: 20px;
+  }
+  section.allamazing > h1.head {
+    height: 53.04px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2.1;
+    color: #0c0c0c;
+    padding: 12px 0;
+  }
+
+  /* یک ستون */
+  div.products > div.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  div.products > div.grid > div.pcard > a {
+    display: block;
+    padding: 12px 0;
+  }
+
+  /* کارت افقی: ستون اول عکس، ستون دوم عنوان */
+  div.pcard > a > article {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: auto 100px auto auto;
+    column-gap: 12px;
+  }
+  div.pcard > a > article > img.ama {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    margin-bottom: 12px;
+  }
+  div.pcard > a > article > img.pru {
+    width: 100px;
+    height: 100px;
+    grid-column: 1;
+    grid-row: 2;
+  }
+  div.pcard > a > article > div.paragraph {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+  }
+  div.pcard > a > article > div.feature {
+    grid-column: 1 / 3;
+    grid-row: 3;
+    margin: 16px 0 8px;
+  }
+  div.pcard > a > article > div.price {
+    grid-column: 1 / 3;
+    grid-row: 4;
+  }
+
+
+/* ============ تبلت ============ */
+@media (min-width: 650px){
+
+  section.allamazing {
+    margin-top: 20px;
+  }
+  section.allamazing > h1.head {
+    height: 53.04px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2.1;
+    color: #0c0c0c;
+    padding: 12px 0;
+  }
+
+  /* دو ستون */
+  div.products > div.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  div.products > div.grid > div.pcard {
+    border-left: 1px solid #e0e0e2;
+  }
+  div.products > div.grid > div.pcard:nth-child(2n) {
+    border-left: none;
+  }
+  div.products > div.grid > div.pcard > a {
+    display: block;
+    padding: 12px 16px;
+  }
+
+  /* کارت عمودی */
+  div.pcard > a > article {
+    display: block;
+  }
+  div.pcard > a > article > img.ama {
+    margin-bottom: 12px;
+  }
+  div.pcard > a > article > img.pru {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 12px;
+  }
+  div.pcard > a > article > div.paragraph {
+    height: 52px;
+    overflow: hidden;
+  }
+  div.pcard > a > article > div.feature {
+    margin: 8px 0 4px;
+  }
+
+  /* نوار قرمز و درصد فروش نیست؛ تایمر سمت چپ */
+  div.pcard > a > article > div.price > div.bar {
+    display: none;
+  }
+  div.pcard > a > article > div.price > div.timer {
+    justify-content: flex-end;
+  }
+  div.pcard > a > article > div.price > div.timer > span.sell {
+    display: none;
+  }
+}
+
+
+/* ============ لپ‌تاپ ============ */
+@media (min-width: 1200px) {
+
+  section.allamazing {
+    margin: 20px;
+  }
+  section.allamazing > h1.head {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0c0c0c;
+    padding: 12px 0;
+    height: 46.6px;
+  }
+
+  /* صفحه: فیلتر راست، محصولات چپ */
+  section.allamazing > div.wrap {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  /* ===== aside ===== */
+  aside.filters {
+    display: block;
+  }
+  section.allamazing > div.wrap > aside.filters {
+    width: 280px;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    position: sticky;
+    top: 16px;
+    border: 1px solid #e0e0e2;
+    border-radius: 8px;
+    scrollbar-width: thin;
+  }
+  aside.filters > span {
+    width: 100%;
+    height: 71.9px;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 2.1;
+    padding: 16px 20px;
+    color: #3f4064;
+    display: inline-block;
+  }
+
+  /* item: تحویل سریع */
+  aside.filters > div.item {
+    width: 100%;
+    height: 85.05px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+  }
+  aside.filters > div.item > div.one {
+    width: 100%;
+    height: 32.25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  aside.filters > div.item > div.one > span {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 2.15;
+    color: #3f4064;
+  }
+  aside.filters > div.item > div.one > svg {
+    width: 24px;
+    height: 24px;
+  }
+  aside.filters > div.item > div.two {
+    width: 162px;
+    height: 72px;
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  aside.filters > div.item > div.two > img {
+    width: 75px;
+    height: 22px;
+  }
+
+  /* item1: فلش‌دارها */
+  aside.filters > div.item1 {
+    width: 100%;
+    height: 57.05px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+  }
+  aside.filters > div.item1 > span {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 2.15;
+    color: #3f4064;
+  }
+  aside.filters > div.item1 > svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* item2: دکمه‌دارها */
+  aside.filters > div.item2 {
+    width: 100%;
+    height: 57.05px;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    justify-content: flex-start;
+  }
+  aside.filters > div.item2 > span {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 2.15;
+    color: #3f4064;
+  }
+  aside.filters > div.item2 > svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+  }
+  aside.filters > div.item2 > div.sw {
+    margin-right: auto;
+  }
+
+  /* متن‌های ردیف‌های item3 و item4 */
+  aside.filters > div.item3 > div.top > span,
+  aside.filters > div.item4 > div.txt > span {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 2.15;
+    color: #3f4064;
+  }
+
+  /* دو خطی: ارتفاع خودکار */
+  aside.filters > div.item2.long {
+    height: auto;
+    min-height: 57.05px;
+  }
+  aside.filters > div.item2.long > span {
+    max-width: 160px;
+  }
+
+  /* item3: ارسال فروشنده با زیرنویس */
+  aside.filters > div.item3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+  }
+  aside.filters > div.item3 > div.top {
+    width: 100%;
+    height: 32.25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  aside.filters > div.item3 > div.top > svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+  }
+  aside.filters > div.item3 > div.top > div.sw {
+    margin-right: auto;
+  }
+  aside.filters > div.item3 > p.sub {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #81858b;
+    margin: 4px 0 0;
+  }
+
+  /* item4: خرید حضوری، آیکون زیر متن */
+  aside.filters > div.item4 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+  }
+  aside.filters > div.item4 > div.txt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  aside.filters > div.item4 > div.txt > svg {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+  }
+  aside.filters > div.item4 > div.sw {
+    margin-right: auto;
+  }
+
+  /* خط جداکننده (با فاصله از دو طرف) */
+  aside.filters > div.item,
+  aside.filters > div.item1,
+  aside.filters > div.item2,
+  aside.filters > div.item3,
+  aside.filters > div.item4 {
+    position: relative;
+  }
+  aside.filters > div.item::after,
+  aside.filters > div.item1::after,
+  aside.filters > div.item2::after,
+  aside.filters > div.item3::after,
+  aside.filters > div.item4::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+    left: 12px;
+    height: 1px;
+    background-color: #e0e0e2;
+  }
+  aside.filters > div:last-of-type::after {
+    display: none;
+  }
+
+  /* دکمه‌ی کشویی */
+  aside.filters div.sw > input {
+    display: none;
+  }
+  aside.filters div.sw > label {
+    display: block;
+    width: 40px;
+    height: 20px;
+    background-color: #e0e0e2;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+  }
+  aside.filters div.sw > label::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: 0.2s;
+  }
+  aside.filters div.sw > input:checked + label {
+    background-color: #1672dd;
+  }
+  aside.filters div.sw > input:checked + label::before {
+    right: 22px;
+  }
+
+  /* ===== محصولات ===== */
+  section.allamazing > div.wrap > div.products {
+    flex: 1;
+    min-width: 0;
+    position: relative;
+  }
+
+  /* اسلایدر موبایل و تبلت مخفی */
+  div.products > div.sort2 {
+    display: none;
+  }
+
+  /* نوار مرتب‌سازی */
+  div.products > div.sort {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 12px;
+    padding-left: 90px;
+    border-bottom: 1px solid #e0e0e2;
+  }
+  div.products > div.sort > svg {
+    height: 22px;
+    width: 22px;
+  }
+  div.products > div.sort > span.sorttitle {
+    font-weight: 700;
+    color: #3f4064;
+  }
+  div.products > div.sort > a {
+    color: #81858b;
+  }
+  div.products > div.sort > a.active {
+    color: #d32f2f;
+    font-weight: 700;
+  }
+
+  /* تعداد کالا: سمت چپ، تو همون ردیف مرتب‌سازی */
+  div.products > div.no {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 48px;
+    display: flex;
+    align-items: center;
+  }
+  main>section.allamazing>div.wrap>div.products>div.no>span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #81858b;
+  }
+
+  /* شبکه‌ی کارت‌ها: ۴ ستون، ۴۰ کارت = ۱۰ ردیف */
+  div.products > div.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  div.products > div.grid > div.pcard {
+    border-left: 1px solid #e0e0e2;
+  }
+  div.products > div.grid > div.pcard:nth-child(4n) {
+    border-left: none;
+  }
+  div.products > div.grid > div.pcard > a {
+    display: block;
+    padding: 12px 16px;
+  }
+
+  /* کارت عمودی */
+  div.pcard > a > article {
+    display: block;
+  }
+  div.pcard > a > article > img.ama {
+    margin-bottom: 12px;
+  }
+  div.pcard > a > article > img.pru {
+    width: 100%;
+    height: 240px;
+    margin-bottom: 12px;
+  }
+  div.pcard > a > article > div.paragraph {
+    height: 52px;
+    overflow: hidden;
+  }
+  div.pcard > a > article > div.feature {
+    margin: 8px 0 4px;
+  }
+
+  /* نوار قرمز و درصد فروش نیست؛ تایمر سمت چپ */
+  div.pcard > a > article > div.price > div.bar {
+    display: none;
+  }
+  div.pcard > a > article > div.price > div.timer {
+    justify-content: flex-end;
+  }
+  div.pcard > a > article > div.price > div.timer > span.sell {
+    display: none;
+  }
+}

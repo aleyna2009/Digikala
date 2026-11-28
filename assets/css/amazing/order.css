@@ -1,0 +1,281 @@
+/* ================= شگفت‌انگیز سفارشی (موبایل) ================= */
+main>section.order{
+    font-family: digi;
+    background-color: #fff;
+    margin-bottom: 12px;
+}
+main>section.order>div.tittle{
+    height: 63.8px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ef4056;
+}
+main>section.order>div.tittle>svg{
+    height: 24px;
+    width: 24px;
+    margin-left: 8px;
+    
+}
+main>section.order>div.tittle>span{
+    font-size: 12px;
+    line-height: 2.15;
+    font-weight: 700;
+    color: #0c0c0c;
+}
+
+/* اسلایدر */
+main>section.order>div.ordering>div.swiper-wrapper{
+    width: 100%;
+    height: 350.99px;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide{
+    width: 160px;
+    height: 350.69px;
+    background-color: #FFFFFF;
+    border-left: 1px solid #e0e0e2;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide:first-of-type{
+    margin-right: 10px;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide:last-of-type{
+    border-left: none;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a{
+    width: 100%;
+    height: 100%;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article{
+    width: 127.2px;
+    height: 326.69px;
+}
+
+/* ردیف بالا: شگفت‌انگیز + سفارشی + آیکون */
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.top{
+    width: 127.2px;
+    height: 23.86px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.top>img.ama{
+    display: block;
+    width: 70.24px;
+    height: 14px;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.top>span.custom{
+    font-size: 10px;
+    font-weight: 400;
+    color: #81858b;
+    margin-right: 6px;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.top>svg{
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+}
+
+/* عکس محصول */
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>img.pru{
+    display: block;
+    width: 128px;
+    height: 128px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+/* توضیحات */
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.paragraph{
+    width: 127.2px;
+    height: 52px;
+    overflow: hidden;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.paragraph>h3{
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 2.17;
+    color: #3f4064;
+    overflow: hidden;
+}
+
+/* ارسال فروشنده / سریع امروز */
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.feature{
+    width: 127.2px;
+    height: 22px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.feature>svg{
+    width: 14px;
+    height: 14px;
+    margin-left: 4px;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.feature>p.fr{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 2.17;
+    color: #62666d;
+}
+/* main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.feature>span.fast{
+    width: 72px;
+    height: 22px;
+    background-color: #0f3bff;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article> div.feature{
+    display: flex !important;
+    align-items: center !important;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.feature>p{
+    margin: 0 !important;
+    line-height: 1 !important;
+}
+
+
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.feature>img{
+    width: 75px;
+    height: 22px;
+    margin-bottom: 4px;
+}
+
+/* قیمت */
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.price>div.one{
+    width: 100%;
+    height: 29.04px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.price>div.one>span.off{
+    width: 34px;
+    height: 20px;
+    padding: 0 4px;
+    color: #fff;
+    background-color: #d32f2f;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 2.17;
+    border: 1px solid #d32f2f;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.price>div.one>div.oneone{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.price>div.one>div.oneone>span.pricee{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2.1;
+    color: #3f4064;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.price>div.one>div.oneone>img{
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+/* قیمت خط خورده */
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.price>div.two{
+    display: flex;
+    justify-content: flex-end;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.price>div.two>span{
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 2.17;
+    padding-left: 20px;
+    text-decoration: line-through;
+    color: #c0c2c5;
+}
+
+/* تایمر (سمت چپ) */
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.price>div.timer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 23.86px;
+    padding-top: 4px;
+}
+main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.price>div.timer>span.time{
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 2.17;
+    color: #c60c31;
+}
+
+
+/* ================= دسکتاپ ================= */
+@media (min-width:1200px) {
+
+    main>section.order{
+        border: 0.5px solid #c0c2c5;
+        border-radius: 8px;
+    }
+    main>section.order>div.tittle{
+        height: 61.4px;
+        padding: 16px 0;
+        margin: 0 8px;
+    }
+    main>section.order>div.tittle>span{
+        line-height: 1.2;
+    }
+
+    /* اسلایدر */
+    main>section.order>div.ordering>div.swiper-wrapper{
+        height: 400.05px;
+    }
+    main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide{
+        width: 204px;
+        height: 400.05px;
+    }
+    main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article{
+        width: 172px;
+        height: 376.05px;
+    }
+    main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.top{
+        width: 172px;
+    }
+    main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.top>img.ama{
+        width: 116px;
+        height: 14px;
+    }
+    main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>img.pru{
+        width: 172px;
+        height: 160px;
+    }
+    main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.paragraph{
+        width: 172px;
+    }
+    main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.feature{
+        width: 172px;
+        height: 23.86px;
+    }
+    main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.price>div.one>span.off{
+        height: 23px;
+    }
+    main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.price>div.timer{
+        height: 27.86px;
+    }
+    main>section.order>div.ordering>div.swiper-wrapper>.swiper-slide>a>article>div.price>div.timer>span.time{
+        font-size: 11px;
+    }
+}

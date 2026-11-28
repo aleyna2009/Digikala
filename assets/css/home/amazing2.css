@@ -1,0 +1,585 @@
+/* ===== amazing2.css : کپی بخش شگفت‌انگیز با رنگ دیگر ===== */
+
+main > section.amazing2 {
+  height: 300px;
+  margin-top: 16px;
+  padding-bottom: 16px;
+  background-color: #8ac03e;   /* رنگ پس‌زمینه‌ی سکشن (موبایل)؛ هر رنگی خواستی بگذار */
+  border-radius: 8px;
+  font-family: digi;
+}
+/* head */
+main > section.amazing2 > div.amazing-head {
+  font-family: digi;
+  height: 56px;
+  padding: 20px 16px 12px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;        
+}
+main > section.amazing2 > div.amazing-head > svg.svgone {
+  margin-left: 20px;
+}
+main > section.amazing2 > div.amazing-head > svg.svgtwo {
+  margin-left: 0;          
+}
+main > section.amazing2 > div.amazing-head > a {
+  margin-right: auto;          
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  width: auto;
+  height: 24px;
+}
+main > section.amazing2 > div.amazing-head > a > span {
+  width: auto;                
+  height: auto;
+  font-size: 11px;
+  line-height: 19.8px;
+  color: #ffffff;
+}
+/* slider */
+main > section.amazing2 > div.amazingswiper2 {
+  height: 228px;
+  overflow: hidden;
+}
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide {
+  background-color: #ffffff;
+  width: 130px;
+  height: 228px;
+  padding: 8px;
+  text-align: right;
+}
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide:first-of-type {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-right: 10px;
+}
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide:last-of-type {
+  border-radius: 8px;
+  margin-left: 10px;
+}
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a.a1 {
+  /* width: 114px;
+    height: 212px; */
+  width: 130px;
+  height: 228px;
+  display: block;
+}
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a.a1
+  > div.pic {
+  width: 114px;
+  height: 114px;
+  /* padding: 6px; */
+  /* background-color: #F0F0F1; */
+}
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a.a1
+  > img.product {
+  width: 114px;
+  height: 114px;
+  object-fit: contain;
+}
+
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a.a1
+  > p {
+  width: 114px;
+  height: 40px;
+  color: #424242;
+  font-size: 11px;
+  line-height: 21.6px;
+  font-weight: 700;
+}
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a.a1
+  > span.price {
+  text-decoration: line-through;
+  width: 38.65px;
+  height: 16px;
+  color: #81858b;
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin-left: 4px;
+  display: block;
+  margin-right: 45px;
+  margin-top: 6px;
+}
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a.a1
+  > span.price::before {
+  content: "۹۰%";
+  display: inline-block;
+  width: 26px;
+  height: 16px;
+  padding: 0 4px;
+  background-color: #d62e4e;
+  color: #ffffff;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 16px;
+  position: absolute;
+  right: 10px;
+  bottom: 40px;
+}
+
+/* off */
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a.a1
+  > div.off-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
+  margin-left: 8px;
+  margin-top: auto;
+}
+
+/* درصد تخفیف: اندازه و پس‌زمینه‌ی قرمز */
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a.a1
+  > div.off-row
+  > span.off {
+  display: inline-block;
+  width: 30px;
+  height: 16px;
+  /* padding: 0 4px; */
+  background-color: #d62e4e;
+  color: #ffffff;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 16px;
+  position: absolute;
+  right: 10px;
+  bottom: 40px;
+}
+
+/* قیمت قبلی (خط‌خورده) */
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a.a1
+  > div.off-row
+  > span.price {
+  text-decoration: line-through;
+  width: 38.65px;
+  height: 16px;
+  color: #81858b;
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin-left: 4px;
+  display: block;
+  margin-right: 40px;
+  margin-top: 6px;
+}
+
+/* final price */
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a.a1
+  > div.final-price {
+  width: 114px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 2px;
+}
+
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a.a1
+  > div.final-price
+  > span.price2 {
+  /* width: 38.65px; */
+  height: 16px;
+  color: black;
+  margin-left: 4px;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-right: 5px;
+}
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a.a1
+  > div.final-price
+  > img.toman {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a.a2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a.a2
+  > div {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #e9ebec;
+  border-radius: 50%;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ main
+  > section.amazing2
+  > div.amazingswiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a.a2
+  > span {
+  width: 66px;
+  height: 21.6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #1f1f1f;
+  display: block;
+}
+main
+  > section.amazing2
+  >div.left-side{
+    display: none;
+  }
+main
+  > section.amazing2
+  >div.right-side{
+    display: none;
+  }
+
+
+
+
+  
+@media (min-width: 1200px) {
+
+  /* مخفی کردن هد و اسلایدر موبایل */
+  main > section.amazing2 > div.amazing-head,
+  main > section.amazing2 > div.amazingswiper2 {
+    display: none;
+  }
+
+  /* خود بخش: ارتفاع = ۲۸۸ + ۱۲ + ۲۰ = ۳۲۰ (هم‌ارتفاع right-side) */
+  main > section.amazing2 {
+    height: 320px;
+    padding: 0;
+    margin: 16px 63px 0;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    border-radius: 16px;
+    overflow: hidden;
+    background: linear-gradient(to left, #8ac03e, #9cc44d);   /* رنگ پس‌زمینه‌ی سکشن (دسکتاپ) */
+  }
+
+  /* ---------- right-side (سمت راست) ---------- */
+  main > section.amazing2 > div.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: content-box;       /* عرض و ارتفاع بدون padding حساب می‌شود */
+    width: 126px;
+    height: 288px;
+    padding: 12px 20px 20px 20px;
+    flex-shrink: 0;
+  }
+  main > section.amazing2 > div.right-side > svg:nth-of-type(1) {
+    width: 64px;
+    height: 54.46px;
+  }
+  main > section.amazing2 > div.right-side > svg:nth-of-type(2) {
+    width: 126px;
+    height: 23.39px;
+  }
+
+  /* تایمر */
+  main > section.amazing2 > div.right-side > div.timer {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  main > section.amazing2 > div.right-side > div.timer > span {
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    color: #1f1f1f;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+  }
+  main > section.amazing2 > div.right-side > div.timer > i {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  /* دکمه‌ی مشاهده همه */
+  main > section.amazing2 > div.right-side > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    box-sizing: border-box;
+    width: 103.86px;
+    height: 32px;
+    padding: 4px 8px;
+    background-color: #f2f3f5;
+    border-radius: 8px;
+    color: #1f1f1f;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  main > section.amazing2 > div.right-side > a > svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* ---------- left-side (اسلایدر) ---------- */
+  main > section.amazing2 > div.left-side {
+    display: block;
+    flex: 1;
+    min-width: 0;
+    position: relative;
+  }
+  main > section.amazing2 > div.left-side > div.amazingdesk2 {
+    height: 280px;
+    overflow: hidden;
+  }
+
+  /* کارت: اسلاید ۱۸۰×۲۹۶ با padding ۸ => لینک داخلش ۱۶۴×۲۸۰ */
+  main > section.amazing2 > div.left-side > div.amazingdesk2 > div.swiper-wrapper > div.swiper-slide {
+  width: 180px;
+  height: 280px;            /* قبلاً 296px بود */
+  padding: 0 8px;           /* قبلاً 8px بود؛ فقط چپ و راست */
+  box-sizing: border-box;
+  background-color: #ffffff;
+  text-align: right;
+}
+  main > section.amazing2 > div.left-side > div.amazingdesk2 > div.swiper-wrapper > div.swiper-slide:first-of-type {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  main > section.amazing2 > div.left-side > div.amazingdesk2 > div.swiper-wrapper > div.swiper-slide:last-of-type {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  main > section.amazing2 > div.left-side > div.amazingdesk2 > div.swiper-wrapper > div.swiper-slide > a.a1 {
+    display: flex;
+    flex-direction: column;
+    width: 164px;
+    height: 280px;
+  }
+
+  /* عکس ۱۶۴×۱۶۴ */
+  main > section.amazing2 > div.left-side > div.amazingdesk2 > div.swiper-wrapper > div.swiper-slide > a.a1 > div.pic {
+    width: 164px;
+    height: 164px;
+    flex-shrink: 0;
+  }
+  main > section.amazing2 > div.left-side > div.amazingdesk2 > div.swiper-wrapper > div.swiper-slide > a.a1 > div.pic > img.product {
+    width: 164px;
+    height: 164px;
+    object-fit: contain;
+  }
+
+  /* اسم محصول: ۱۴px، ۲ خط و بعدش سه‌نقطه */
+  main > section.amazing2 > div.left-side > div.amazingdesk2 > div.swiper-wrapper > div.swiper-slide > a.a1 > p {
+    width: 164px;
+    height: 50.4px;
+    margin-top: 6px;
+    color: #424242;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25.2px;
+    display: -webkit-box;
+    /* -webkit-line-clamp: 2; */
+    /* -webkit-box-orient: vertical; */
+    overflow: hidden;
+  }
+
+  /* درصد تخفیف + قیمت قبلی (سمت چپ کارت) */
+  main > section.amazing2 > div.left-side > div.amazingdesk2 > div.swiper-wrapper > div.swiper-slide > a.a1 > div.off-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6px;
+    margin-top: auto;
+  }
+  main > section.amazing2 > div.left-side > div.amazingdesk2 > div.swiper-wrapper > div.swiper-slide > a.a1 > div.off-row > span.off {
+    min-width: 36px;
+    height: 20px;
+    padding: 0 8px;
+    box-sizing: border-box;
+    background-color: #d62e4e;
+    color: #ffffff;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+  }
+  main > section.amazing2 > div.left-side > div.amazingdesk2 > div.swiper-wrapper > div.swiper-slide > a.a1 > div.off-row > span.price {
+    color: #a2a2a2;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: line-through;
+  }
+
+  /* قیمت بعد تخفیف ۱۹px + عکس تومان ۱۴×۱۴ */
+  main > section.amazing2 > div.left-side > div.amazingdesk2 > div.swiper-wrapper > div.swiper-slide > a.a1 > div.final-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4px;
+    margin-top: 4px;
+  }
+  main > section.amazing2 > div.left-side > div.amazingdesk2 > div.swiper-wrapper > div.swiper-slide > a.a1 > div.final-price > span.price2 {
+    color: #1f1f1f;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  main > section.amazing2 > div.left-side > div.amazingdesk2 > div.swiper-wrapper > div.swiper-slide > a.a1 > div.final-price > img.toman {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+  }
+
+  /* آخرین کارت: مشاهده همه */
+  main > section.amazing2 > div.left-side > div.amazingdesk2 > div.swiper-wrapper > div.swiper-slide > a.a2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 164px;
+    height: 280px;
+  }
+  main > section.amazing2 > div.left-side > div.amazingdesk2 > div.swiper-wrapper > div.swiper-slide > a.a2 > div {
+    width: 48px;
+    height: 48px;
+    border: 2px solid #e9ebec;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main > section.amazing2 > div.left-side > div.amazingdesk2 > div.swiper-wrapper > div.swiper-slide > a.a2 > span {
+    color: #1f1f1f;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  /* ---------- فلش‌ها ---------- */
+  main > section.amazing2 > div.left-side > div.desk-next2,
+  main > section.amazing2 > div.left-side > div.desk-prev2 {
+    position: absolute;
+    top: calc(50% - 25px);
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10;
+  }
+  main > section.amazing2 > div.left-side > div.desk-next2 { left: 10px; }
+  main > section.amazing2 > div.left-side > div.desk-prev2 { right: 10px; }
+
+  /* وقتی به ابتدا یا انتها رسید، فلش پنهان شود */
+  main > section.amazing2 > div.left-side > div.swiper-button-disabled {
+    opacity: 0;
+    pointer-events: none;
+  }
+}

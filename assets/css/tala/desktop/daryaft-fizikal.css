@@ -1,0 +1,90 @@
+ .imgdaryaftfiziki{
+     width:50%;
+            border-radius: 16px;
+            padding: 10px;
+      
+  height: 80%;
+        
+    
+    }
+
+.pminiclass-2{
+  margin-bottom: 25%;
+}
+
+.pminiclass-2{
+position: relative;
+top: 150px;
+font-size: medium;
+left: -20px;
+
+}
+    .fizikifont{
+      
+      font-size: 14px;
+      opacity: 60%;
+line-height: 1.9;
+padding: 10px;
+
+    }
+
+.cardchera-1-2{
+
+
+   width: 90%; 
+      background: #fff;
+  border:1px solid #00000022;
+      border-radius: 16px;
+      padding: 5px;
+      display: flex;
+     
+     justify-content: space-between;
+   
+      margin-bottom: 15px;
+margin-right: 5%;
+position: relative;
+top: -150px;
+}
+     .my-button{
+      width: 30%;
+      height: 50px;
+      border: #027275;
+      border-radius: 10px;
+      background-color: #027275;
+      color: #FAFAFA;
+      font-size:16px;
+      font-weight: bold;
+          cursor: pointer;
+      display: flex;
+    }
+
+    .my-button-text{
+ 
+            font-family: "yekan-bold";
+            position: relative;
+     left: -10%;
+     top: 10%;
+     white-space: nowrap;
+ 
+    }
+
+
+
+
+
+.pclass-5{
+        font-family: "yekan-bold";
+        margin-right: 25%;
+            padding: 20px;
+   
+   font-family: "yekan-bold";
+      font-size: large;
+      margin-right: 4%;
+      color: #000;
+      position: relative;
+      top: -20px;
+}
+.pminiclass-2{
+    position: relative;
+    top: 40px;
+}

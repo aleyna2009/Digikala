@@ -1,0 +1,35 @@
+main>section.add{
+  background-color: #F2F3F5;
+}
+main > section.add > div.banneradd {
+  height: 180px;
+  margin-bottom: 12px;
+}
+main
+  > section.add
+  > div.banneradd
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a
+  > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+main > section.add > div.banneradd > div.swiper-wrapper > div.swiper-slide {
+  border-radius: 8px;
+  overflow: hidden;
+}
+main > section.add > div.banneradd > div.swiper-wrapper > div.swiper-slide > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width:1200px){
+  main > section.add > div.banneradd {
+  height: 400px;
+  margin-bottom: 12px;
+}
+}

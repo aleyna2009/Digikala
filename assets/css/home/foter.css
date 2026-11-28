@@ -1,0 +1,608 @@
+/* ============ فوتر: گوشی و تبلت ============ */
+footer{
+    font-family: digi;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 90px;    
+}
+footer p,
+footer h2,
+footer h4{
+    margin: 0;
+}
+
+/* بخش‌های مخصوص لپ‌تاپ تو موبایل مخفی */
+footer>div.toprow,
+footer>div.services,
+footer>div.app,
+footer>div.cols>div.follow{
+    display: none;
+}
+
+/* رفتن به بالا */
+footer>a.up{
+    align-self: center;
+    margin: 24px 0 16px;
+    width: 104px;
+    height: 36px;
+    border: 1px solid #e0e0e2;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer>a.up>span{
+    font-size: 11px;
+    color: #62666d;
+}
+footer>a.up>svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+/* پشتیبانی و دانلود */
+footer>div.mobtop{
+    margin: 0 20px;
+}
+footer>div.mobtop>div.mrow{
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+footer>div.mobtop>div.mrow>span.micon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f0f0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer>div.mobtop>div.mrow>span.micon.red{
+    background-color: #ef4056;
+}
+footer>div.mobtop>div.mrow>span.micon>svg{
+    width: 22px;
+    height: 22px;
+}
+footer>div.mobtop>div.mrow>span.micon>img{
+    width: 22px;
+    height: 22px;
+}
+footer>div.mobtop>div.mrow>div.mtext{
+    margin-right: 12px;
+}
+footer>div.mobtop>div.mrow>div.mtext>strong{
+    display: block;
+    font-size: 13px;
+    color: #3f4064;
+}
+footer>div.mobtop>div.mrow>div.mtext>p{
+    font-size: 11px;
+    color: #81858b;
+}
+footer>div.mobtop>div.mrow>a.mbtn{
+    margin-right: auto;
+    width: 62px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #f0f0f1;
+    font-size: 11px;
+    font-weight: 700;
+    color: #3f4064;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ستون‌های بازشونده */
+footer>div.cols{
+    margin: 8px 20px 0;
+}
+footer>div.cols>details.col,
+footer>details.partners{
+    border-bottom: 1px solid #e0e0e2;
+    padding-bottom: 8px;
+}
+footer>details.partners{
+    margin: 0 20px;
+    border-bottom: none;
+}
+footer>div.cols>details.col>summary,
+footer>details.partners>summary{
+    list-style: none;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+footer>div.cols>details.col>summary::-webkit-details-marker,
+footer>details.partners>summary::-webkit-details-marker{
+    display: none;
+}
+footer>div.cols>details.col>summary>span,
+footer>details.partners>summary>span{
+    font-size: 14px;
+    font-weight: 700;
+    color: #3f4064;
+}
+footer>div.cols>details.col>summary>svg,
+footer>details.partners>summary>svg{
+    width: 22px;
+    height: 22px;
+    transition: 0.2s;
+}
+/* بسته شد: فلش برعکس */
+footer>div.cols>details.col:not([open])>summary>svg,
+footer>details.partners:not([open])>summary>svg{
+    transform: rotate(180deg);
+}
+footer>div.cols>details.col>a{
+    display: block;
+    font-size: 13px;
+    line-height: 40px;
+    color: #3f4064;
+}
+
+/* شرکای تجاری */
+footer>details.partners>div.brands{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+footer>details.partners>div.brands>a{
+    height: 84px;
+    border-left: 1px solid #e0e0e2;
+    border-bottom: 1px solid #e0e0e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer>details.partners>div.brands>a:nth-child(3n){
+    border-left: none;
+}
+footer>details.partners>div.brands>a>img{
+    max-width: 70%;
+    max-height: 28px;
+}
+
+/* درباره‌ی دیجی‌کالا */
+footer>div.about{
+    margin: 16px 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+footer>div.about>div.abouttext>h2{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.8;
+    color: #3f4064;
+    margin-bottom: 8px;
+}
+footer>div.about>div.abouttext>div.para{
+    height: 72px;
+    overflow: hidden;
+    position: relative;
+}
+footer>div.about>div.abouttext>div.para>p{
+    font-size: 11px;
+    line-height: 2.2;
+    color: #62666d;
+    text-align: justify;
+}
+footer>div.about>div.abouttext>div.para::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 36px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0), #fff);
+}
+footer>div.about>div.abouttext>a.readmore{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #1672dd;
+}
+footer>div.about>div.abouttext>a.readmore>svg{
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+}
+footer>div.about>div.badges{
+    display: flex;
+    margin-top: 16px;
+}
+footer>div.about>div.badges>a{
+    width: 64px;
+    height: 64px;
+    border: 1px solid #e0e0e2;
+    border-radius: 8px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer>div.about>div.badges>a>img{
+    max-width: 80%;
+    max-height: 80%;
+}
+
+/* حقوق */
+footer>div.copy{
+    margin: 24px 20px 0;
+    text-align: center;
+}
+footer>div.copy>p{
+    font-size: 10px;
+    line-height: 2;
+    color: #81858b;
+}
+
+/* ===== دایره‌ی پشتیبانی (ثابت، همه‌ی اندازه‌ها) ===== */
+a.support{
+    position: fixed;
+    left: 16px;
+    bottom: 16px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #7c4dff, #4a7dff);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+a.support>svg{
+    width: 26px;
+    height: 26px;
+}
+
+/* ===== منوی پایین (ثابت، موبایل و تبلت) ===== */
+nav.bnav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 300px;
+    bottom: 16px;
+    height: 58px;
+    background-color: #fff;
+    border-radius: 29px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 8px;
+    z-index: 100;
+}
+nav.bnav>a{
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav.bnav>a>svg{
+    width: 24px;
+    height: 24px;
+}
+nav.bnav>a.home{
+    background-color: #1f1f1f;
+    border-radius: 50%;
+}
+@media (max-width: 420px) {
+    nav.bnav{
+        left: 90px;
+        right: 16px;
+        width: auto;
+        margin: 0;
+    }
+}
+
+
+/* ============ فوتر: لپ‌تاپ ============ */
+@media (min-width: 1200px) {
+
+    footer{
+        padding-bottom: 0;
+    }
+
+    /* موبایل مخفی */
+    footer>a.up,
+    footer>div.mobtop,
+    nav.bnav{
+        display: none;
+    }
+
+    /* لپ‌تاپ نمایان */
+    footer>div.toprow{
+        display: flex;
+        margin: 0 16px;
+        padding-top: 40px;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    footer>div.toprow>div.logo>img{
+        display: block;
+        width: 245px;
+        height: 36px;
+        margin-bottom: 16px;
+    }
+    footer>div.toprow>div.logo>p{
+        font-size: 12px;
+        color: #3f4064;
+    }
+    footer>div.toprow>div.logo>p>span.line{
+        margin: 0 12px;
+        color: #81858b;
+    }
+    footer>div.toprow>a.totop{
+        width: 168px;
+        height: 50px;
+        border: 1px solid #e0e0e2;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer>div.toprow>a.totop>svg{
+        width: 20px;
+        height: 20px;
+        margin-left: 8px;
+    }
+    footer>div.toprow>a.totop>span{
+        font-size: 12px;
+        color: #62666d;
+    }
+
+    /* ویژگی‌ها */
+    footer>div.services{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin: 60px 16px 56px;
+    }
+    footer>div.services>div.srv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer>div.services>div.srv>img{
+        width: 56px;
+        height: 56px;
+    }
+    footer>div.services>div.srv>span{
+        font-size: 12px;
+        color: #3f4064;
+        margin-top: 12px;
+    }
+
+    /* ستون‌ها: ۴ تا کنار هم */
+    footer>div.cols{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 40px;
+        margin: 0 16px;
+    }
+    footer>div.cols>details.col{
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    footer>div.cols>details.col>summary{
+        height: auto;
+        margin-bottom: 18px;
+        pointer-events: none;      /* تو لپ‌تاپ بسته نمی‌شه */
+    }
+    footer>div.cols>details.col>summary>span{
+        font-size: 16px;
+    }
+    footer>div.cols>details.col>summary>svg{
+        display: none;
+    }
+    footer>div.cols>details.col>a{
+        font-size: 14px;
+        line-height: 2.8;
+        color: #81858b;
+    }
+    footer>div.cols>details.col>a:hover{
+        color: #ef4056;
+    }
+
+    /* همراه ما باشید */
+    footer>div.cols>div.follow{
+        display: block;
+    }
+    footer>div.cols>div.follow>h4{
+        font-size: 16px;
+        font-weight: 700;
+        color: #3f4064;
+        margin-bottom: 18px;
+    }
+    footer>div.cols>div.follow>div.social{
+        display: flex;
+        margin-bottom: 36px;
+    }
+    footer>div.cols>div.follow>div.social>a{
+        margin-left: 30px;
+    }
+    footer>div.cols>div.follow>div.social>a>img{
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+    footer>div.cols>div.follow>h4.mailt{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    footer>div.cols>div.follow>div.mail{
+        display: flex;
+    }
+    footer>div.cols>div.follow>div.mail>input{
+        flex: 1;
+        height: 60px;
+        border: none;
+        border-radius: 8px;
+        background-color: #f0f0f1;
+        padding: 0 20px;
+        font-family: digi;
+        font-size: 14px;
+        outline: none;
+    }
+    footer>div.cols>div.follow>div.mail>button{
+        width: 67px;
+        height: 60px;
+        border: none;
+        border-radius: 8px;
+        background-color: #e0e0e2;
+        color: #fff;
+        font-family: digi;
+        font-size: 14px;
+        font-weight: 700;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    /* دانلود اپلیکیشن */
+    footer>div.app{
+        display: flex;
+        align-items: center;
+        height: 95px;
+        margin: 40px 16px 0;
+        padding: 0 45px 0 40px;
+        background-color: #3f4064;
+        border-radius: 8px;
+    }
+    footer>div.app>div.appt{
+        display: flex;
+        align-items: center;
+    }
+    footer>div.app>div.appt>span.appicon{
+        width: 54px;
+        height: 54px;
+        background-color: #ef4056;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer>div.app>div.appt>span.appicon>img{
+        width: 30px;
+        height: 30px;
+    }
+    footer>div.app>div.appt>span.appname{
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+        margin-right: 16px;
+    }
+    footer>div.app>div.stores{
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+    }
+    footer>div.app>div.stores>a{
+        width: 177px;
+        height: 54px;
+        background-color: #fff;
+        border-radius: 4px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer>div.app>div.stores>a>img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    footer>div.app>div.stores>a.more{
+        width: 54px;
+    }
+
+    /* درباره‌ی دیجی‌کالا: متن راست، نشان‌ها چپ */
+    footer>div.about{
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 36px 16px 0;
+        padding: 40px 0;
+        border-top: 1px solid #e0e0e2;
+        border-bottom: 1px solid #e0e0e2;
+    }
+    footer>div.about>div.abouttext{
+        flex: 1;
+    }
+    footer>div.about>div.abouttext>h2{
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 16px;
+    }
+    footer>div.about>div.abouttext>div.para{
+        height: 102px;
+    }
+    footer>div.about>div.abouttext>div.para>p{
+        font-size: 13px;
+        line-height: 2.6;
+    }
+    footer>div.about>div.abouttext>div.para::after{
+        height: 50px;
+    }
+    footer>div.about>div.abouttext>a.readmore{
+        margin-top: 24px;
+        font-size: 13px;
+    }
+    footer>div.about>div.badges{
+        margin-top: 0;
+        margin-right: 68px;
+    }
+    footer>div.about>div.badges>a{
+        width: 136px;
+        height: 135px;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    footer>div.about>div.badges>a:first-of-type{
+        margin-right: 0;
+    }
+
+    /* حقوق */
+    footer>div.copy{
+        margin: 0;
+        padding: 44px 16px;
+    }
+    footer>div.copy>p{
+        font-size: 12px;
+        color: #3f4064;
+    }
+
+    /* شرکای تجاری: آخر صفحه، خاکستری، ۹ ستون */
+    footer>details.partners{
+        order: 10;
+        margin: 0;
+        padding-bottom: 0;
+        background-color: #f0f0f1;
+    }
+    footer>details.partners>summary{
+        display: none;
+    }
+    footer>details.partners>div.brands{
+        grid-template-columns: repeat(9, 1fr);
+    }
+    footer>details.partners>div.brands>a{
+        height: 100px;
+    }
+    footer>details.partners>div.brands>a:nth-child(3n){
+        border-left: 1px solid #e0e0e2;
+    }
+    footer>details.partners>div.brands>a:nth-child(9n){
+        border-left: none;
+    }
+    footer>details.partners>div.brands>a>img{
+        max-width: 70%;
+        max-height: 36px;
+    }
+}

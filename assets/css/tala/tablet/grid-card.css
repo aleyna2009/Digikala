@@ -1,0 +1,65 @@
+ .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+gap: 25px;
+
+margin: 15px;
+display: none;
+    }
+
+    .card {
+     width: 100%;
+      background: #fff;
+  border:1px solid #00000022;
+      border-radius: 16px;
+  height: 110%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+
+    }
+
+
+    .card img {
+      width: 40%;
+
+    
+      border-radius: 10px;
+
+    }
+
+    .card p {
+      margin: 8px 0 0;
+      text-align: center;
+      font-size: 8px;
+      white-space: nowrap;
+      color: #333;   font-family: "yekan-bold";
+margin-left: -15%;
+    }
+
+    .imgcard{
+      width: 60px;
+      height: 600px;
+    }
+
+    .tahliltala{
+      width: calc(50%);   
+      background: #fff;
+  border:1px solid #00000022;
+      border-radius: 16px;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+.pclass{
+      padding: 20px;
+      padding-right: 0px;
+      padding-bottom: 5px;
+      font-weight:bold;
+       font-family: "yekan-bold";
+position: relative;
+top: -50px;
+    }
+

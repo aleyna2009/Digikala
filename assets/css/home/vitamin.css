@@ -1,0 +1,348 @@
+main > section.vitamin {
+  height: 334px;
+  font-family: digi;
+  
+}
+main > section.vitamin > div.head {
+  height: 81.6px;
+  padding: 20px 16px 12px;
+}
+main > section.vitamin > div.head > div.tittle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main > section.vitamin > div.head > div.tittle > span.p-tittle {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+}
+main > section.vitamin > div.head > div.tittle > a {
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+main > section.vitamin > div.head > div.tittle > a > span.all {
+  font-size: 12.5px;
+  line-height: 19.8px;
+  font-weight: 700;
+  color: #1c1c1c;
+}
+main > section.vitamin > div.head > div.slogan > span {
+  margin-top: 4px;
+  color: #6b6b76;
+  font-size: 13px;
+  line-height: 21.6px;
+  font-weight: 400;
+}
+main > section.vitamin > div.head > div.tittle > a > span.all2 {
+  display: none;
+}
+
+/* slider */
+main > section.vitamin > div.vitamins {
+  width: 100%;
+  height: 239.6px;
+  overflow: hidden;
+  /* padding: 0 8px; */
+}
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide {
+  width: 141px;
+  height: 239.6px;
+  background-color: #ffffff;
+  /* text-align: right; */
+}
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide:first-of-type{
+  margin-right: 15px;
+
+}
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  /* padding: 0 8px 8px; */
+  border: 1px solid #e0e0e2;
+  border-radius: 8px;
+  overflow: hidden;
+}
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a>div.pic{
+  width: 140px;
+  height: 140px;
+}
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a>div.pic > img.product {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* اسم محصول: ۲ خط و بعدش سه‌نقطه */
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > p {
+  /* width: 120px; */
+  /* height: 44px; */
+  /* margin-top: 6px; */
+  /* flex-shrink: 0; */
+  color: #424242;
+  font-size: 11px;
+  line-height: 19.8px;
+  font-weight: 700;
+  text-align: right;
+  margin-right: 6px;
+}
+
+/* قیمت قبلی + درصد تخفیف با before، سمت چپ */
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > span.price {
+  display: block;
+  margin-top: auto;
+  text-align: left;
+  color: #c4c4cc;
+  font-size: 11px;
+  line-height: 16px !important;
+  font-weight: 400;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > span.price::before {
+  content: attr(data-off) "50٪";
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 7px;
+  background-color: #d9292f;
+  color: #ffffff;
+  border-radius: 16px;
+  font-size: 11.5px;
+  font-weight: 800;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+/* قیمت نهایی + عکس تومان، سمت چپ */
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > div.final-price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* gap: 4px; */
+  margin-top: auto;
+  margin-left: 20px;
+}
+/* main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > span.price + div.final-price {
+  margin-top: 0;
+} */
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > div.final-price > span.price2 {
+  color: #1e1b4b;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px !important;
+  margin-left: 4px;
+}
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > div.final-price > img.toman {
+  width: 14px;
+  height: 14px;
+}
+
+/* ردیف درصد تخفیف + قیمت قبلی، سمت چپ کارت */
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > div.off-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6px;
+  margin-left: 8px;
+  margin-top: auto;
+}
+
+/* درصد تخفیف: اندازه و پس‌زمینه‌ی قرمز */
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > div.off-row > span.off {
+  width: 36.54px;
+  height: 20px;
+  background-color: #d9292f;
+  color: #ffffff;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 11.5px;
+  font-weight: 800;
+  line-height: 20px;
+}
+
+/* قیمت قبلی (خط‌خورده) */
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > div.off-row > span.price {
+  color: #c4c4cc;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: line-through;
+}
+
+@media (min-width:1200px) {
+  main > section.vitamin {
+  margin: 40px 50px 0;
+  border-radius: 16px;
+  border: 1px solid #e1e3e7;
+  height: 423.2px;
+}
+main > section.vitamin > div.head {
+  height: 77.2px;
+  padding: 16px 24px 0;
+}
+main > section.vitamin > div.head > div.tittle > span.p-tittle {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+main > section.vitamin > div.head > div.tittle > a {
+  border: 1px solid #f2f3f5;
+  border-radius: 8px;
+  background-color: #f2f3f5;
+  padding: 4px 8px;
+}
+main > section.vitamin > div.head > div.tittle > a > span.all2 {
+  font-size: 12.5px;
+  line-height: 19.8px;
+  font-weight: 700;
+  color: #1c1c1c;
+  display: inline-block;
+  margin-left: 5px;
+}
+main > section.vitamin > div.head > div.tittle > a > span.all {
+  display: none;
+}
+main > section.vitamin > div.head > div.slogan > span {
+  margin-top: 8px;
+  color: #6b6b76;
+  font-size: 14px;
+  line-height: 25.2px;
+  font-weight: 400;
+}
+
+
+
+main > section.vitamin > div.vitamins {
+  width: 100%;
+  height: 304.4px;
+  margin-top: 15px;
+}
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide {
+  width: 160px;
+  height: 304.4px;
+  background-color: #ffffff;
+  /* text-align: right; */
+}
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide:first-of-type{
+  margin-right: 15px;
+
+}
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  /* padding: 0 8px 8px; */
+  border: 1px solid #e0e0e2;
+  border-radius: 8px;
+  overflow: hidden;
+}
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a>div.pic{
+  width: 158.4px;
+  height: 158.4px;
+}
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a>div.pic > img.product {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* اسم محصول: ۲ خط و بعدش سه‌نقطه */
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > p {
+  /* width: 120px; */
+  /* height: 44px; */
+  /* margin-top: 6px; */
+  /* flex-shrink: 0; */
+  color: #5c5c5c;
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: 500;
+  text-align: right;
+  margin-right: 6px;
+}
+
+/* قیمت قبلی + درصد تخفیف با before، سمت چپ */
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > span.price {
+  display: block;
+  margin-top: auto;
+  text-align: left;
+  color: #a2a2a2;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > span.price::before {
+  content: attr(data-off) "50٪";
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 7px;
+  background-color: #d9292f;
+  color: #ffffff;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.8px;
+  vertical-align: middle;
+}
+
+/* قیمت نهایی + عکس تومان، سمت چپ */
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > div.final-price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* gap: 4px; */
+  margin-top: auto;
+  margin-left: 20px;
+}
+
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > div.final-price > span.price2 {
+  color: #1e1b4b;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-left: 4px;
+}
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > div.final-price > img.toman {
+  width: 20px;
+  height: 20px;
+}
+
+/* ردیف درصد تخفیف + قیمت قبلی، سمت چپ کارت */
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > div.off-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6px;
+  margin-left: 8px;
+  /* margin-top: auto; */
+}
+
+/* درصد تخفیف: اندازه و پس‌زمینه‌ی قرمز */
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > div.off-row > span.off {
+  width: 32px;
+  height: 20px;
+  background-color: #d9292f;
+  color: #ffffff;
+  border-radius: 16px;
+  text-align: center;
+ font-size: 12px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+/* قیمت قبلی (خط‌خورده) */
+main > section.vitamin > div.vitamins > div.swiper-wrapper > div.swiper-slide > a > div.off-row > span.price {
+  color: #c4c4cc;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+}
+
+

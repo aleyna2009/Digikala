@@ -1,0 +1,48 @@
+.daste2 {
+  font-family: "yekan-bold";
+  font-size: 15px;
+  margin-right: 43%;
+  margin-top: 5%;
+}
+
+.swiper-2-2 {
+  width: 90%;
+  height: 110%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+
+  grid-auto-rows: 200px;
+
+}
+
+.swiper-2-2 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  height: calc((25% - 30px) / 2) !important;
+
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.swiper-2-2 .go {
+  width: 55px;
+  height: 55px;
+}
+.mob2 {
+  width: 100%;
+  height: 120%;
+  position: relative;
+  top: 5%;
+}
+.swiper-2-2 .mob {
+  font-family: "yekan-bold";
+  white-space: rap;
+  font-size: 8px;
+  position: relative;
+  top: -20%;
+}

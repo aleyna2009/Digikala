@@ -1,0 +1,244 @@
+main>section.tomorrow{
+    height: 170.7px;
+    padding: 0 16px;
+    font-family: digi;
+}
+main>section.tomorrow>div.tom{
+    width: 100%;
+    height: 170.7px;
+    padding: 0 16px;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    background-color: #f5f5f5;
+    background-image: linear-gradient(267.6deg, #e6123d1a 0%, #f2f2f200 100%);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main>section.tomorrow>div.tom>div.title{
+    width: 100%;
+    height: 41.7px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+main>section.tomorrow>div.tom>div.title>div.one{
+    width: 162px;
+    height: 41.7px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+}
+main>section.tomorrow>div.tom>div.title>div.one>img{
+    width: 146px;
+    height: 20px;                  /* تغییر: قبلاً 120px بود و عکس رو پایین می‌انداخت */
+}
+main>section.tomorrow>div.tom>div.title>div.one>span{
+    color: #0c0c0c;
+    font-size: 10px;
+    line-height: 2.17;
+    font-weight: 700;
+    margin-top: 2px;
+}
+
+/* time */
+main>section.tomorrow>div.tom>div.title>div.time{
+    width: 106.58px;
+    height: 28px;
+    margin-top: 16px;
+    margin-right: auto;            /* تغییر: تایمر می‌ره سمت چپ */
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 10px;
+}
+main>section.tomorrow>div.tom>div.title>div.time>div.watch{
+    position: relative;            /* برای دو نقطه‌ی بین باکس‌ها */
+    width: 28px;
+    height: 28px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* دو نقطه بین باکس‌ها (توی HTML نمی‌خواد چیزی بنویسی) */
+main>section.tomorrow>div.tom>div.title>div.time>div.watch:not(:last-child)::after{
+    content: ":";
+    position: absolute;
+    left: -10px;
+    width: 10px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #23254e;
+}
+main>section.tomorrow>div.tom>div.title>div.time>div.watch>span.no{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 2.15;
+    color: #23254e;
+}
+
+/* product */
+main>section.tomorrow>div.tom>div.product{
+    width: 100%;
+    height: 69px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 7px;
+}
+main>section.tomorrow>div.tom>div.product>div.pro{
+    width: 68px;
+    height: 69px;
+    padding: 8px 0;
+    border-radius: 50%;
+    border: 1px solid #f0f0f1;
+    background-color: #FFFFFF;
+}
+main>section.tomorrow>div.tom>div.product>div.pro2{
+    display: none;
+}
+main>section.tomorrow>div.tom>div.product>div.pro>a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+main>section.tomorrow>div.tom>div.product>div.pro>a>img{
+    width: 52px;
+    height: 53px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
+main>section.tomorrow>div.tom>div.product>div.pro>a>span{
+    position: absolute;
+    bottom: -8px;
+    right: 0px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 2.17;
+    background-color: #d32f2f;
+    color: #fff;
+    width: 35px;
+    height: 22px;
+    border: 1px solid #f0f0f1;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* btn */
+main>section.tomorrow>div.tom>div.product>div.btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+main>section.tomorrow>div.tom>div.product>div.btn>svg{
+    width: 20px;
+    height: 20px;
+}
+main>section.tomorrow>div.tom>div.product>div.btn>span{
+    display: none;
+}
+
+
+
+@media (min-width:1200px) {
+  main>section.tomorrow{
+    height: 110px;
+    padding: 0 16px;
+    font-family: digi;
+    background-image: url();
+  }
+  main>section.tomorrow>div.tom{
+    width: 100%;
+    height: 110px;
+    padding: 0 40px;
+    flex-direction: row;               /* تغییر: همه توی یک ردیف */
+    justify-content: flex-start;
+    align-items: center;               /* همه از نظر ارتفاع وسط */
+  }
+
+  /* title: «فردای شگفت‌انگیز» + تایمر کنار هم */
+  main>section.tomorrow>div.tom>div.title{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    align-items: center;
+  }
+  main>section.tomorrow>div.tom>div.title>div.one{
+    width: auto;
+    height: auto;
+  }
+  main>section.tomorrow>div.tom>div.title>div.one>img{
+    width: 207px;
+    height: 28px;
+  }
+  main>section.tomorrow>div.tom>div.title>div.one>span{
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  main>section.tomorrow>div.tom>div.title>div.time{
+    width: auto;
+    height: 28px;
+    margin: 0 40px 0 0;                /* تغییر: دیگه نره سمت چپ؛ ۴۰px فاصله از عنوان */
+    align-items: center;
+  }
+
+  /* product */
+  main>section.tomorrow>div.tom>div.product{
+    height: 74px;
+    margin-top: 0;
+    justify-content: flex-end;         /* محصولات و دکمه سمت چپ */
+  }
+  main>section.tomorrow>div.tom>div.product>div.pro{
+    width: 74px;
+    height: 74px;
+  }
+  main>section.tomorrow>div.tom>div.product>div.pro2{
+    display: block;
+  }
+  main>section.tomorrow>div.tom>div.product>div.pro>a>img{
+    width: 58px;
+    height: 58px;
+  }
+  main>section.tomorrow>div.tom>div.product>div.pro>a>span{
+    font-size: 12px;
+  }
+
+  /* btn */
+  main>section.tomorrow>div.tom>div.product>div.btn{
+    width: 141.755px;
+    height: 50.037px;
+    margin-right: 0;
+  }
+  main>section.tomorrow>div.tom>div.product>div.btn>span{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2.17;
+    color: #e6123d;
+    display: inline-block;
+    margin-left: 8px;
+  }
+}
